@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<Config>
+    <Silicon>
+        <Firmware>
+            <Driver SrcDir="qcfirmware$(silicon)_EMMC" OutDir="components/QC$(SoC)/Firmware/EMMC"/>
+            <Driver SrcDir="qcfirmware$(silicon)_NVME" OutDir="components/QC$(SoC)/Firmware/NVME"/>
+            <Driver SrcDir="qcfirmware$(silicon)_UFS" OutDir="components/QC$(SoC)/Firmware/UFS"/>
+        </Firmware>
+        <Drivers>
+            <Driver SrcDir="HalExtQCWdogTimer$(silicon)" OutDir="components/QC$(SoC)/Drivers/HALs/WatchDog"/>
+            <Driver SrcDir="qcabd" OutDir="components/QC$(SoC)/Drivers/SOC/ACPI"/>
+            <Driver SrcDir="qcadcm$(silicon)" OutDir="components/QC$(SoC)/Drivers/Audio/ADCM"/>
+            <Driver SrcDir="qcadc$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/VoltageCurrentMonitoring"/>
+            <Driver SrcDir="qcadspdaemon$(silicon)" OutDir="components/QC$(SoC)/Drivers/Subsystems/ADSPDaemon"/>
+            <Driver SrcDir="qcadsprpc$(silicon)" OutDir="components/QC$(SoC)/Drivers/Audio/RPC/ADSPRPC"/>
+            <Driver SrcDir="qcadsprpcd$(silicon)" OutDir="components/QC$(SoC)/Drivers/Audio/RPC/ADSPRPCD"/>
+            <Driver SrcDir="qc5gnrcoexmgr$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/5GNRCoexistenceManager"/>
+            <Driver SrcDir="qcbtaddvscregistry$(silicon)" OutDir="components/QC$(SoC)/Drivers/Bluetooth/AddVSCRegistry"/>
+            <Driver SrcDir="qccammipicsi$(silicon)" OutDir="components/QC$(SoC)/Drivers/Camera/MIPICSI"/>
+            <Driver SrcDir="qccamplatform$(silicon)" OutDir="components/QC$(SoC)/Drivers/Camera/Platform"/>
+            <Driver SrcDir="qcccidbridge$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/CCID"/>
+            <Driver SrcDir="qccdi$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/ResetPower"/>
+            <Driver SrcDir="qcdeepstandbymdm$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/DeepStandby"/>
+            <Driver SrcDir="QCDiagBridge" OutDir="components/QC$(SoC)/Drivers/Cellular/DiagBridge"/>
+            <Driver SrcDir="qcdiagcsi$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/DiagCSI"/>
+            <Driver SrcDir="qcdiagrouter$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/DiagRouter"/>
+            <Driver SrcDir="qcdplbridge$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/DPL"/>
+            <Driver SrcDir="qcfgbcl$(silicon)" OutDir="components/QC$(SoC)/Drivers/Battery/BatteryCurrentLimiter"/>
+            <Driver SrcDir="qcglink$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/Buses/GLINK"/>
+            <Driver SrcDir="qcgnss$(silicon)" OutDir="components/QC$(SoC)/Drivers/GPS"/>
+            <Driver SrcDir="qcgpi$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/Buses/GPI"/>
+            <Driver SrcDir="qcgpio$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/GPIO"/>
+            <Driver SrcDir="qchwnled$(silicon)" OutDir="components/QC$(SoC)/Drivers/HWNLED"/>
+            <Driver SrcDir="qci2c$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/I2C"/>
+            <Driver SrcDir="qciommu" OutDir="components/QC$(SoC)/Drivers/SOC/IOMMU"/>
+            <Driver SrcDir="qcipcc$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/IPCC"/>
+            <Driver SrcDir="qcipcrouter$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/IPCRouter"/>
+            <Driver SrcDir="qckmbam$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/BusAccessModule"/>
+            <Driver SrcDir="QCListenSM$(silicon)" OutDir="components/QC$(SoC)/Drivers/Audio/ListenSoundModel"/>
+            <Driver SrcDir="QCListenSM_swc$(silicon)" OutDir="components/QC$(SoC)/Drivers/Audio/ListenSoundModelSWC"/>
+            <Driver SrcDir="qcmbbnetadapter$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/MBBNetAdapter"/>
+            <Driver SrcDir="qcmbrg$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/ModemBridge"/>
+            <Driver SrcDir="qcpdsr" OutDir="components/QC$(SoC)/Drivers/Subsystems/ProtectionDomainServiceRegistry"/>
+            <Driver SrcDir="qcpep.wd$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/PowerManagement"/>
+            <Driver SrcDir="qcpil" OutDir="components/QC$(SoC)/Drivers/SOC/HexagonLoader/PIL"/>
+            <Driver SrcDir="qcpmic$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/PMIC/Core"/>
+            <Driver SrcDir="QcPmicApps$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/PMIC/Apps"/>
+            <Driver SrcDir="qcpmicgpio$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/PMIC/GPIO"/>
+            <Driver SrcDir="qcppx$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/PCIe"/>
+            <Driver SrcDir="qcpsautoreg$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/AutoReg"/>
+            <Driver SrcDir="qcremoteat$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/RemoteAT"/>
+            <Driver SrcDir="qcremotefs$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/RemoteFS/"/>
+            <Driver SrcDir="qcrmnetbridge$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/RmnetBridge"/>
+            <Driver SrcDir="qcrpen" OutDir="components/QC$(SoC)/Drivers/SOC/ResetPower/ResetProtectionEnabler"/>
+            <Driver SrcDir="qcscm" OutDir="components/QC$(SoC)/Drivers/SOC/System/SCM"/>
+            <Driver SrcDir="qcsecapp" OutDir="components/QC$(SoC)/Drivers/SOC/System/SecApp"/>
+            <Driver SrcDir="qcshutdownsvc" OutDir="components/QC$(SoC)/Drivers/Shutdown"/>
+            <Driver SrcDir="QcSkExt$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/HexagonLoader/SecureKernel"/>
+            <Driver SrcDir="qcslimbus$(silicon)" OutDir="components/QC$(SoC)/Drivers/Audio/SlimBus"/>
+            <Driver SrcDir="qcsmmu$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/SMMU"/>
+            <Driver SrcDir="QcSOCPartition" OutDir="components/QC$(SoC)/Drivers/SOC/Provisioning"/>
+            <Driver SrcDir="qcspmi$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/SPMI"/>
+            <Driver SrcDir="qcSubsysThermalMgr" OutDir="components/QC$(SoC)/Drivers/Subsystems/ThermalMgr"/>
+            <Driver SrcDir="qcsyscache$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/System/CacheController"/>
+            <Driver SrcDir="QcTftpKmdf" OutDir="components/QC$(SoC)/Drivers/SOC/System/Transports"/>
+            <Driver SrcDir="qcthermalmdm$(silicon)" OutDir="components/QC$(SoC)/Drivers/Cellular/ThermalMDM"/>
+            <Driver SrcDir="QcTrEE" OutDir="components/QC$(SoC)/Drivers/SOC/TrEE"/>
+            <Driver SrcDir="qcuart$(silicon)" OutDir="components/QC$(SoC)/Drivers/SOC/UART"/>
+            <Driver SrcDir="qcusbcucsi$(silicon)" OutDir="components/QC$(SoC)/Drivers/USB/UCSI"/>
+            <Driver SrcDir="QcUsbFnSsFilter$(silicon)" OutDir="components/QC$(SoC)/Drivers/USBFn/SuperSpeedFilter"/>
+            <Driver SrcDir="QcXhciFilter$(silicon)" OutDir="components/QC$(SoC)/Drivers/USBHost"/>
+            <Driver SrcDir="qSarMgr" OutDir="components/QC$(SoC)/Drivers/SAR"/>
+            <Driver SrcDir="ufnserialcomposite" OutDir="components/QC$(SoC)/Drivers/USBFn/Interfaces"/>
+        </Drivers>
+        <Extensions>
+            <Driver SrcDir="qc5gnrcoexmgr_ext$(silicon)" OutDir="components/QC$(SoC)/Extensions/Cellular/5GNRCoexistenceManager"/>
+            <Driver SrcDir="qciommuext$(silicon)" OutDir="components/QC$(SoC)/Extensions/SOC/IOMMU"/>
+            <Driver SrcDir="qcipaext$(silicon)" OutDir="components/QC$(SoC)/Extensions/Cellular/IPA"/>
+            <Driver SrcDir="qcmbbnetadapter_ext$(silicon)" OutDir="components/QC$(SoC)/Extensions/Cellular/MBBNetAdapter"/>
+            <Driver SrcDir="qcpilfilterext" OutDir="components/QC$(SoC)/Extensions/HexagonLoader/PILFilter"/>
+            <Driver SrcDir="qcpmicext$(silicon)" OutDir="components/QC$(SoC)/Extensions/PMIC/Core"/>
+            <Driver SrcDir="qsarconfig$(silicon)" OutDir="components/QC$(SoC)/Extensions/SARConfig"/>
+        </Extensions>
+    </Silicon>
+    <Device>
+        <Drivers>
+        </Drivers>
+        <Extensions>
+        </Extensions>
+        <Platform>
+            <Drivers>
+                <Driver SrcDir="qcaucd$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Audio/Device"/>
+                <Driver SrcDir="qcaudminiport_Base$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Audio/AudMiniport"/>
+                <Driver SrcDir="qcbtfmuart_hsp$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Bluetooth/BTFMUART_HSP"/>
+                <Driver SrcDir="qccamauxsensor$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Camera/AuxiliarySensor"/>
+                <Driver SrcDir="qccamavs$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Camera/AVStream"/>
+                <Driver SrcDir="qccamflash$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Camera/Flash"/>
+                <Driver SrcDir="qccamfrontsensor$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Camera/FrontSensor"/>
+                <Driver SrcDir="qccamfrontsensor_extension$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Camera/FrontCamera"/>
+                <Driver SrcDir="qccamisp$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Camera/ISP"/>
+                <Driver SrcDir="qcdx$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Graphics/DXKM"/>
+                <Driver SrcDir="qcipa$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Cellular/IPA"/>
+                <Driver SrcDir="qcSensors" OutDir="components/Devices/$(codename)/Platform/Drivers/Sensors/SSC"/>
+                <Driver SrcDir="qcsubsys$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/Subsystems/CombinedSubsystem"/>
+                <Driver SrcDir="qcwlan$(silicon)" OutDir="components/Devices/$(codename)/Platform/Drivers/WLAN/Core"/>
+            </Drivers>
+            <Extensions>
+                <Driver SrcDir="mcfg_subsys_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Subsystems/ModemConfig"/>
+                <Driver SrcDir="qcacsp_crd$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Audio/ACDB"/>
+                <Driver SrcDir="qcaucd_ext_crd$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Audio/Device"/>
+                <Driver SrcDir="qcaudminiportCRD_Extension$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Audio/AudMiniport"/>
+                <Driver SrcDir="qcbtfmuart_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Bluetooth/BTFMUART_HSP"/>
+                <Driver SrcDir="qccamauxsensor_extension$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/AuxilarySensor"/>
+                <Driver SrcDir="qccamavs_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/AVStream"/>
+                <Driver SrcDir="qccamisp_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/ISP"/>
+                <Driver SrcDir="qccamjpege$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/JPEGEncoder"/>
+                <Driver SrcDir="qccamjpege_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/JPEGEncoder"/>
+                <Driver SrcDir="qccammipicsi_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/MIPICSI"/>
+                <Driver SrcDir="qccamplatform_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Camera/Platform"/>
+                <Driver SrcDir="qcdxext_crd$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Graphics/DXKM"/>
+                <Driver SrcDir="qcfgbclext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/PMIC/BatteryCurrentLimiter"/>
+                <Driver SrcDir="QCListenSM_swc_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Audio/ListenSoundModel"/>
+                <Driver SrcDir="qcpilEXT$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/HexagonLoader/PIL"/>
+                <Driver SrcDir="qcSensorsConfigCrd$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/SensorsConfig"/>
+                <Driver SrcDir="qcsubsys_ext_adsp$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Subsystems/Audio"/>
+                <Driver SrcDir="qcsubsys_ext_cdsp$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Subsystems/Compute"/>
+                <Driver SrcDir="qcsubsys_ext_mpss$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Subsystems/Modem"/>
+                <Driver SrcDir="qcsubsys_ext_wpss$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/Subsystems/WPSS"/>
+                <Driver SrcDir="QcTreeExtOem$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/SOC/TrEE/OEM"/>
+                <Driver SrcDir="QcTreeExtQcom$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/SOC/TrEE/QCOM"/>
+                <Driver SrcDir="qcwlan_ext$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/WLAN/WLAN"/>
+                <Driver SrcDir="qcwlan_ext_wpss$(silicon)" OutDir="components/Devices/$(codename)/Platform/Extensions/WLAN/WPSS"/>
+            </Extensions>
+        </Platform>
+    </Device>
+</Config>
