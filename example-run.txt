@@ -1,119 +1,150 @@
-python main.py --input src/ --silicon 7280 --codename Yupik --modelnumber 7325
-Moved contents of 'qcfirmware7280_EMMC' to 'components/QC7325/Firmware/EMMC'
-Moved contents of 'qcfirmware7280_NVME' to 'components/QC7325/Firmware/NVME'
-Moved contents of 'qcfirmware7280_UFS' to 'components/QC7325/Firmware/UFS'
-Moved contents of 'HalExtQCWdogTimer7280' to 'components/QC7325/Drivers/HALs/WatchDog'
-Moved contents of 'qcabd' to 'components/QC7325/Drivers/SOC/ACPI'
-Moved contents of 'qcadcm7280' to 'components/QC7325/Drivers/Audio/ADCM'
-Moved contents of 'qcadc7280' to 'components/QC7325/Drivers/SOC/System/VoltageCurrentMonitoring'
-Moved contents of 'qcadspdaemon7280' to 'components/QC7325/Drivers/Subsystems/ADSPDaemon'
-Moved contents of 'qcadsprpc7280' to 'components/QC7325/Drivers/Audio/RPC/ADSPRPC'
-Moved contents of 'qcadsprpcd7280' to 'components/QC7325/Drivers/Audio/RPC/ADSPRPCD'
-Moved contents of 'qc5gnrcoexmgr7280' to 'components/QC7325/Drivers/Cellular/5GNRCoexistenceManager'
-Moved contents of 'qcbtaddvscregistry7280' to 'components/QC7325/Drivers/Bluetooth/AddVSCRegistry'
-Moved contents of 'qccammipicsi7280' to 'components/QC7325/Drivers/Camera/MIPICSI'
-Moved contents of 'qccamplatform7280' to 'components/QC7325/Drivers/Camera/Platform'
-Moved contents of 'qcccidbridge7280' to 'components/QC7325/Drivers/Cellular/CCID'
-Moved contents of 'qccdi7280' to 'components/QC7325/Drivers/SOC/ResetPower'
-Moved contents of 'qcdeepstandbymdm7280' to 'components/QC7325/Drivers/Cellular/DeepStandby'
-Moved contents of 'QCDiagBridge' to 'components/QC7325/Drivers/Cellular/DiagBridge'
-Moved contents of 'qcdiagcsi7280' to 'components/QC7325/Drivers/Cellular/DiagCSI'
-Moved contents of 'qcdiagrouter7280' to 'components/QC7325/Drivers/Cellular/DiagRouter'
-Moved contents of 'qcdplbridge7280' to 'components/QC7325/Drivers/Cellular/DPL'
-Moved contents of 'qcfgbcl7280' to 'components/QC7325/Drivers/Battery/BatteryCurrentLimiter'
-Moved contents of 'qcglink7280' to 'components/QC7325/Drivers/SOC/Buses/GLINK'
-Moved contents of 'qcgnss7280' to 'components/QC7325/Drivers/GPS'
-Moved contents of 'qcgpi7280' to 'components/QC7325/Drivers/SOC/Buses/GPI'
-Moved contents of 'qcgpio7280' to 'components/QC7325/Drivers/SOC/GPIO'
-Moved contents of 'qchwnled7280' to 'components/QC7325/Drivers/HWNLED'
-Moved contents of 'qci2c7280' to 'components/QC7325/Drivers/SOC/I2C'
-Moved contents of 'qciommu' to 'components/QC7325/Drivers/SOC/IOMMU'
-Moved contents of 'qcipcc7280' to 'components/QC7325/Drivers/SOC/System/IPCC'
-Moved contents of 'qcipcrouter7280' to 'components/QC7325/Drivers/Cellular/IPCRouter'
-Moved contents of 'qckmbam7280' to 'components/QC7325/Drivers/SOC/System/BusAccessModule'
-Moved contents of 'QCListenSM7280' to 'components/QC7325/Drivers/Audio/ListenSoundModel'
-Moved contents of 'QCListenSM_swc7280' to 'components/QC7325/Drivers/Audio/ListenSoundModelSWC'
-Moved contents of 'qcmbbnetadapter7280' to 'components/QC7325/Drivers/Cellular/MBBNetAdapter'
-Moved contents of 'qcmbrg7280' to 'components/QC7325/Drivers/Cellular/ModemBridge'
-Moved contents of 'qcpdsr' to 'components/QC7325/Drivers/Subsystems/ProtectionDomainServiceRegistry'
-Moved contents of 'qcpep.wd7280' to 'components/QC7325/Drivers/SOC/PowerManagement'
-Moved contents of 'qcpil' to 'components/QC7325/Drivers/SOC/HexagonLoader/PIL'
-Moved contents of 'qcpmic7280' to 'components/QC7325/Drivers/SOC/PMIC/Core'
-Moved contents of 'QcPmicApps7280' to 'components/QC7325/Drivers/SOC/PMIC/Apps'
-Moved contents of 'qcpmicgpio7280' to 'components/QC7325/Drivers/SOC/PMIC/GPIO'
-Moved contents of 'qcppx7280' to 'components/QC7325/Drivers/SOC/PCIe'
-Moved contents of 'qcpsautoreg7280' to 'components/QC7325/Drivers/SOC/System/AutoReg'
-Moved contents of 'qcremoteat7280' to 'components/QC7325/Drivers/Cellular/RemoteAT'
-Moved contents of 'qcremotefs7280' to 'components/QC7325/Drivers/Cellular/RemoteFS/'
-Moved contents of 'qcrmnetbridge7280' to 'components/QC7325/Drivers/Cellular/RmnetBridge'
-Moved contents of 'qcrpen' to 'components/QC7325/Drivers/SOC/ResetPower/ResetProtectionEnabler'
-Moved contents of 'qcscm' to 'components/QC7325/Drivers/SOC/System/SCM'
-Moved contents of 'qcsecapp' to 'components/QC7325/Drivers/SOC/System/SecApp'
-Moved contents of 'qcshutdownsvc' to 'components/QC7325/Drivers/Shutdown'
-Moved contents of 'QcSkExt7280' to 'components/QC7325/Drivers/SOC/HexagonLoader/SecureKernel'
-Moved contents of 'qcslimbus7280' to 'components/QC7325/Drivers/Audio/SlimBus'
-Moved contents of 'qcsmmu7280' to 'components/QC7325/Drivers/SOC/System/SMMU'
-Moved contents of 'QcSOCPartition' to 'components/QC7325/Drivers/SOC/Provisioning'
-Moved contents of 'qcspmi7280' to 'components/QC7325/Drivers/SOC/System/SPMI'
-Moved contents of 'qcSubsysThermalMgr' to 'components/QC7325/Drivers/Subsystems/ThermalMgr'
-Moved contents of 'qcsyscache7280' to 'components/QC7325/Drivers/SOC/System/CacheController'
-Moved contents of 'QcTftpKmdf' to 'components/QC7325/Drivers/SOC/System/Transports'
-Moved contents of 'qcthermalmdm7280' to 'components/QC7325/Drivers/Cellular/ThermalMDM'
-Moved contents of 'QcTrEE' to 'components/QC7325/Drivers/SOC/TrEE'
-Notice: Driver directory 'qcuart7280' not found. Skipping...
-Moved contents of 'qcusbcucsi7280' to 'components/QC7325/Drivers/USB/UCSI'
-Moved contents of 'QcUsbFnSsFilter7280' to 'components/QC7325/Drivers/USBFn/SuperSpeedFilter'
-Moved contents of 'QcXhciFilter7280' to 'components/QC7325/Drivers/USBHost'
-Moved contents of 'qSarMgr' to 'components/QC7325/Drivers/SAR'
-Moved contents of 'ufnserialcomposite' to 'components/QC7325/Drivers/USBFn/Interfaces'
-Moved contents of 'qc5gnrcoexmgr_ext7280' to 'components/QC7325/Extensions/Cellular/5GNRCoexistenceManager'
-Moved contents of 'qciommuext7280' to 'components/QC7325/Extensions/SOC/IOMMU'
-Moved contents of 'qcipaext7280' to 'components/QC7325/Extensions/Cellular/IPA'
-Moved contents of 'qcmbbnetadapter_ext7280' to 'components/QC7325/Extensions/Cellular/MBBNetAdapter'
-Moved contents of 'qcpilfilterext' to 'components/QC7325/Extensions/HexagonLoader/PILFilter'
-Moved contents of 'qcpmicext7280' to 'components/QC7325/Extensions/PMIC/Core'
-Moved contents of 'qsarconfig7280' to 'components/QC7325/Extensions/SARConfig'
-Moved contents of 'qcaucd7280' to 'components/Devices/Yupik/Platform/Drivers/Audio/Device'
-Moved contents of 'qcaudminiport_Base7280' to 'components/Devices/Yupik/Platform/Drivers/Audio/AudMiniport'
-Moved contents of 'qcbtfmuart_hsp7280' to 'components/Devices/Yupik/Platform/Drivers/Bluetooth/BTFMUART_HSP'
-Moved contents of 'qccamauxsensor7280' to 'components/Devices/Yupik/Platform/Drivers/Camera/AuxiliarySensor'
-Moved contents of 'qccamavs7280' to 'components/Devices/Yupik/Platform/Drivers/Camera/AVStream'
-Moved contents of 'qccamflash7280' to 'components/Devices/Yupik/Platform/Drivers/Camera/Flash'
-Moved contents of 'qccamfrontsensor7280' to 'components/Devices/Yupik/Platform/Drivers/Camera/FrontSensor'
-Moved contents of 'qccamfrontsensor_extension7280' to 'components/Devices/Yupik/Platform/Drivers/Camera/FrontCamera'
-Moved contents of 'qccamisp7280' to 'components/Devices/Yupik/Platform/Drivers/Camera/ISP'
-Moved contents of 'qcdx7280' to 'components/Devices/Yupik/Platform/Drivers/Graphics/DXKM'
-Moved contents of 'qcipa7280' to 'components/Devices/Yupik/Platform/Drivers/Cellular/IPA'
-Moved contents of 'qcSensors' to 'components/Devices/Yupik/Platform/Drivers/Sensors/SSC'
-Moved contents of 'qcsubsys7280' to 'components/Devices/Yupik/Platform/Drivers/Subsystems/CombinedSubsystem'
-Moved contents of 'qcwlan7280' to 'components/Devices/Yupik/Platform/Drivers/WLAN/Core'
-Moved contents of 'mcfg_subsys_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Subsystems/ModemConfig'
-Moved contents of 'qcacsp_crd7280' to 'components/Devices/Yupik/Platform/Extensions/Audio/ACDB'
-Moved contents of 'qcaucd_ext_crd7280' to 'components/Devices/Yupik/Platform/Extensions/Audio/Device'
-Moved contents of 'qcaudminiportCRD_Extension7280' to 'components/Devices/Yupik/Platform/Extensions/Audio/AudMiniport'
-Moved contents of 'qcbtfmuart_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Bluetooth/BTFMUART_HSP'
-Moved contents of 'qccamauxsensor_extension7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/AuxilarySensor'
-Moved contents of 'qccamavs_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/AVStream'
-Moved contents of 'qccamisp_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/ISP'
-Moved contents of 'qccamjpege7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/JPEGEncoder'
-Moved contents of 'qccamjpege_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/JPEGEncoder'
-Moved contents of 'qccammipicsi_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/MIPICSI'
-Moved contents of 'qccamplatform_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Camera/Platform'
-Moved contents of 'qcdxext_crd7280' to 'components/Devices/Yupik/Platform/Extensions/Graphics/DXKM'
-Moved contents of 'qcfgbclext7280' to 'components/Devices/Yupik/Platform/Extensions/PMIC/BatteryCurrentLimiter'
-Moved contents of 'QCListenSM_swc_ext7280' to 'components/Devices/Yupik/Platform/Extensions/Audio/ListenSoundModel'
-Moved contents of 'qcpilEXT7280' to 'components/Devices/Yupik/Platform/Extensions/HexagonLoader/PIL'
-Moved contents of 'qcSensorsConfigCrd7280' to 'components/Devices/Yupik/Platform/Extensions/SensorsConfig'
-Moved contents of 'qcsubsys_ext_adsp7280' to 'components/Devices/Yupik/Platform/Extensions/Subsystems/Audio'
-Moved contents of 'qcsubsys_ext_cdsp7280' to 'components/Devices/Yupik/Platform/Extensions/Subsystems/Compute'
-Moved contents of 'qcsubsys_ext_mpss7280' to 'components/Devices/Yupik/Platform/Extensions/Subsystems/Modem'
-Moved contents of 'qcsubsys_ext_wpss7280' to 'components/Devices/Yupik/Platform/Extensions/Subsystems/WPSS'
-Moved contents of 'QcTreeExtOem7280' to 'components/Devices/Yupik/Platform/Extensions/SOC/TrEE/OEM'
-Moved contents of 'QcTreeExtQcom7280' to 'components/Devices/Yupik/Platform/Extensions/SOC/TrEE/QCOM'
-Moved contents of 'qcwlan_ext7280' to 'components/Devices/Yupik/Platform/Extensions/WLAN/WLAN'
-Moved contents of 'qcwlan_ext_wpss7280' to 'components/Devices/Yupik/Platform/Extensions/WLAN/WPSS'
+BSPOrganizer    master !2 ?1  python main.py --input source --silicon 8180                                                             ✔
+Notice: Driver directory 'qcfirmware8180_EMMC' not found. Skipping...
+Moved contents of 'qcfirmware8180_NVME' to 'QC8180/Firmware/NVME'
+Moved contents of 'qcfirmware8180_UFS' to 'QC8180/Firmware/UFS'
+Moved contents of 'HalExtQCWdogTimer8180' to 'QC8180/Drivers/HALs/WatchDog'
+Moved contents of 'qcabd' to 'QC8180/Drivers/SOC/ACPI'
+Moved contents of 'qcadcm8180' to 'QC8180/Drivers/Audio/ADCM'
+Moved contents of 'qcadc8180' to 'QC8180/Drivers/SOC/System/VoltageCurrentMonitoring'
+Notice: Driver directory 'qcadspdaemon8180' not found. Skipping...
+Moved contents of 'qcadsprpc8180' to 'QC8180/Drivers/Audio/RPC/ADSPRPC'
+Moved contents of 'qcadsprpcd8180' to 'QC8180/Drivers/Audio/RPC/ADSPRPCD'
+Notice: Driver directory 'qc5gnrcoexmgr8180' not found. Skipping...
+Moved contents of 'qcbtaddvscregistry8180' to 'QC8180/Drivers/Bluetooth/AddVSCRegistry'
+Moved contents of 'qccammipicsi8180' to 'QC8180/Drivers/Camera/MIPICSI'
+Moved contents of 'qccamplatform8180' to 'QC8180/Drivers/Camera/Platform'
+Moved contents of 'qcccidbridge8180' to 'QC8180/Drivers/Cellular/CCID'
+Moved contents of 'qccdi8180' to 'QC8180/Drivers/SOC/ResetPower'
+Notice: Driver directory 'qcdeepstandbymdm8180' not found. Skipping...
+Moved contents of 'QCDiagBridge' to 'QC8180/Drivers/Cellular/DiagBridge'
+Moved contents of 'qcdiagcsi8180' to 'QC8180/Drivers/Cellular/DiagCSI'
+Moved contents of 'qcdiagrouter8180' to 'QC8180/Drivers/Cellular/DiagRouter'
+Moved contents of 'qcdplbridge8180' to 'QC8180/Drivers/Cellular/DPL'
+Moved contents of 'qcfgbcl8180' to 'QC8180/Drivers/Battery/BatteryCurrentLimiter'
+Moved contents of 'qcglink8180' to 'QC8180/Drivers/SOC/Buses/GLINK'
+Moved contents of 'qcgnss8180' to 'QC8180/Drivers/GPS'
+Moved contents of 'qcgpi8180' to 'QC8180/Drivers/SOC/Buses/GPI'
+Moved contents of 'qcgpio8180' to 'QC8180/Drivers/SOC/GPIO'
+Moved contents of 'qchwnled8180' to 'QC8180/Drivers/HWNLED'
+Moved contents of 'qci2c8180' to 'QC8180/Drivers/SOC/I2C'
+Notice: Driver directory 'qciommu' not found. Skipping...
+Notice: Driver directory 'qcipcc8180' not found. Skipping...
+Moved contents of 'qcipcrouter8180' to 'QC8180/Drivers/Cellular/IPCRouter'
+Moved contents of 'qckmbam8180' to 'QC8180/Drivers/SOC/System/BusAccessModule'
+Moved contents of 'QCListenSM8180' to 'QC8180/Drivers/Audio/ListenSoundModel'
+Moved contents of 'QCListenSM_swc8180' to 'QC8180/Drivers/Audio/ListenSoundModelSWC'
+Notice: Driver directory 'qcmbbnetadapter8180' not found. Skipping...
+Moved contents of 'qcmbrg8180' to 'QC8180/Drivers/Cellular/ModemBridge'
+Moved contents of 'qcpdsr' to 'QC8180/Drivers/Subsystems/ProtectionDomainServiceRegistry'
+Moved contents of 'qcpep.wd8180' to 'QC8180/Drivers/SOC/PowerManagement'
+Notice: Driver directory 'qcpil' not found. Skipping...
+Moved contents of 'qcpmic8180' to 'QC8180/Drivers/SOC/PMIC/Core'
+Moved contents of 'QcPmicApps8180' to 'QC8180/Drivers/SOC/PMIC/Apps'
+Moved contents of 'qcpmicgpio8180' to 'QC8180/Drivers/SOC/PMIC/GPIO'
+Moved contents of 'qcppx8180' to 'QC8180/Drivers/SOC/PCIe'
+Notice: Driver directory 'qcpsautoreg8180' not found. Skipping...
+Moved contents of 'qcremoteat8180' to 'QC8180/Drivers/Cellular/RemoteAT'
+Moved contents of 'qcremotefs8180' to 'QC8180/Drivers/Cellular/RemoteFS/'
+Moved contents of 'qcrmnetbridge8180' to 'QC8180/Drivers/Cellular/RmnetBridge'
+Notice: Driver directory 'qcrpen' not found. Skipping...
+Notice: Driver directory 'qcscm' not found. Skipping...
+Notice: Driver directory 'qcsecapp' not found. Skipping...
+Moved contents of 'qcshutdownsvc' to 'QC8180/Drivers/Shutdown'
+Notice: Driver directory 'QcSkExt8180' not found. Skipping...
+Moved contents of 'qcslimbus8180' to 'QC8180/Drivers/Audio/SlimBus'
+Moved contents of 'qcsmmu8180' to 'QC8180/Drivers/SOC/System/SMMU'
+Moved contents of 'QcSOCPartition' to 'QC8180/Drivers/SOC/Provisioning'
+Moved contents of 'qcspmi8180' to 'QC8180/Drivers/SOC/System/SPMI'
+Notice: Driver directory 'qcSubsysThermalMgr' not found. Skipping...
+Moved contents of 'qcsyscache8180' to 'QC8180/Drivers/SOC/System/CacheController'
+Moved contents of 'QcTftpKmdf' to 'QC8180/Drivers/SOC/System/Transports'
+Notice: Driver directory 'qcthermalmdm8180' not found. Skipping...
+Notice: Driver directory 'QcTrEE' not found. Skipping...
+Moved contents of 'qcuart8180' to 'QC8180/Drivers/SOC/UART'
+Moved contents of 'qcusbcucsi8180' to 'QC8180/Drivers/USB/UCSI'
+Moved contents of 'QcUsbFnSsFilter8180' to 'QC8180/Drivers/USBFn/SuperSpeedFilter'
+Moved contents of 'QcXhciFilter8180' to 'QC8180/Drivers/USBHost'
+Notice: Driver directory 'qSarMgr' not found. Skipping...
+Moved contents of 'ufnserialcomposite' to 'QC8180/Drivers/USBFn/Interfaces'
+Notice: Driver directory 'qcaucd8180' not found. Skipping...
+Moved contents of 'qcaudminiport_Base8180' to 'QC8180/Drivers/Audio/AudMiniport'
+Notice: Driver directory 'qcbtfmuart_hsp8180' not found. Skipping...
+Moved contents of 'qccamauxsensor8180' to 'QC8180/Drivers/Camera/AuxiliarySensor'
+Notice: Driver directory 'qccamavs8180' not found. Skipping...
+Notice: Driver directory 'qccamflash8180' not found. Skipping...
+Moved contents of 'qccamfrontsensor8180' to 'QC8180/Drivers/Camera/FrontSensor'
+Moved contents of 'qccamfrontsensor_extension8180' to 'QC8180/Drivers/Camera/FrontCamera'
+Moved contents of 'qccamisp8180' to 'QC8180/Drivers/Camera/ISP'
+Moved contents of 'qcdx8180' to 'QC8180/Drivers/Graphics/DXKM'
+Moved contents of 'qcipa8180' to 'QC8180/Drivers/Cellular/IPA'
+Notice: Driver directory 'qcSensors' not found. Skipping...
+Moved contents of 'qcsubsys8180' to 'QC8180/Drivers/Subsystems/CombinedSubsystem'
+Moved contents of 'qcwlan8180' to 'QC8180/Drivers/WLAN/Core'
+Moved contents of 'qccamrearsensor8180' to 'QC8180/Drivers/Camera/RearSensor'
+Moved contents of 'qcrevrmnet8180' to 'QC8180/Drivers/Cellular/RevRmnet'
+Moved contents of 'qcmbb8180' to 'QC8180/Drivers/Cellular/MBB'
+Moved contents of 'qcgsi8180' to 'QC8180/Drivers/Cellular/GSI'
+Moved contents of 'qcbtfmuart8180' to 'QC8180/Drivers/Bluetooth/BTFMUART'
+Moved contents of 'qcscm8180' to 'QC8180/Drivers/SoC/System/SCM'
+Moved contents of 'qcauddev_ext8180' to 'QC8180/Extensions/Audio/Device'
+Moved contents of 'qcauddev8180' to 'QC8180/Drivers/Audio/Device'
+Moved contents of 'qcspi8180' to 'QC8180/Drivers/SOC/SPI'
+Moved contents of 'qcacsp_cls8180' to 'QC8180/Extensions/Audio/ACDB'
+Moved contents of 'qcaudminiportCLS_Extension8180' to 'QC8180/Extensions/Audio/AudMiniport'
+Moved contents of 'QcLteCoexMgr8180' to 'QC8180/Drivers/Cellular/LteCoexistenceManager'
+Moved contents of 'qciommu8180' to 'QC8180/Drivers/SOC/IOMMU'
+Notice: Driver directory 'qcbtfmuart_ext_SwiftPairEnable8180' not found. Skipping...
+Notice: Driver directory 'qc5gnrcoexmgr_ext8180' not found. Skipping...
+Notice: Driver directory 'qciommuext8180' not found. Skipping...
+Notice: Driver directory 'qcipaext8180' not found. Skipping...
+Notice: Driver directory 'qcmbbnetadapter_ext8180' not found. Skipping...
+Notice: Driver directory 'qcpilfilterext' not found. Skipping...
+Notice: Driver directory 'qcpmicext8180' not found. Skipping...
+Moved contents of 'qsarconfig8180' to 'QC8180/Extensions/SARConfig'
+Moved contents of 'mcfg_subsys_ext8180' to 'QC8180/Extensions/Subsystems/ModemConfig'
+Notice: Driver directory 'qcacsp_crd8180' not found. Skipping...
+Notice: Driver directory 'qcaucd_ext_crd8180' not found. Skipping...
+Notice: Driver directory 'qcaudminiportCRD_Extension8180' not found. Skipping...
+Moved contents of 'qcbtfmuart_ext8180' to 'QC8180/Extensions/Bluetooth/BTFMUART_HSP'
+Moved contents of 'qccamauxsensor_extension8180' to 'QC8180/Extensions/Camera/AuxilarySensor'
+Notice: Driver directory 'qccamavs_ext8180' not found. Skipping...
+Notice: Driver directory 'qccamisp_ext8180' not found. Skipping...
+Moved contents of 'qccamjpege8180' to 'QC8180/Extensions/Camera/JPEGEncoder'
+Notice: Driver directory 'qccamjpege_ext8180' not found. Skipping...
+Notice: Driver directory 'qccammipicsi_ext8180' not found. Skipping...
+Notice: Driver directory 'qccamplatform_ext8180' not found. Skipping...
+Notice: Driver directory 'qcdxext_crd8180' not found. Skipping...
+Moved contents of 'qcfgbclext8180' to 'QC8180/Extensions/PMIC/BatteryCurrentLimiter'
+Moved contents of 'QCListenSM_swc_ext8180' to 'QC8180/Extensions/Audio/ListenSoundModel'
+Moved contents of 'qcpilEXT8180' to 'QC8180/Extensions/HexagonLoader/PIL'
+Notice: Driver directory 'qcSensorsConfigCrd8180' not found. Skipping...
+Moved contents of 'qcsubsys_ext_adsp8180' to 'QC8180/Extensions/Subsystems/Audio'
+Moved contents of 'qcsubsys_ext_cdsp8180' to 'QC8180/Extensions/Subsystems/Compute'
+Moved contents of 'qcsubsys_ext_mpss8180' to 'QC8180/Extensions/Subsystems/Modem'
+Notice: Driver directory 'qcsubsys_ext_wpss8180' not found. Skipping...
+Notice: Driver directory 'QcTreeExtOem8180' not found. Skipping...
+Notice: Driver directory 'QcTreeExtQcom8180' not found. Skipping...
+Notice: Driver directory 'qcwlan_ext8180' not found. Skipping...
+Notice: Driver directory 'qcwlan_ext_wpss8180' not found. Skipping...
 
-Warn: The following drivers were not moved from 'src/':
- - example-leftoverdir-3
- - example-leftoverdir-2
- - example-leftoverdir-1
+Warn: The following drivers were not moved from 'source':
+ - qcpil8180
+ - qccamavscls8180
+ - qccamrearsensor_extension8180
+ - qcSensorsConfig8180
+ - qcbattminiclass8180
+ - qcSensorsConfigCls8180
+ - qcSensorsConfigClsc8180
+ - qcbtfmuart_hst_ext_SwiftPairEnable8180
+ - qSarMgr8180
+ - qcwlan6800sc8180
+ - QcTrEE8180
+ - qcSensors8180
+ - qdcmlib8180
+ - qcrpen8180
+ - qcsubsys_ext_scss8180
+ - qcbtaddvscregistry_hst8180
+ - qcusbfn8180
+ - qcbtfmuart_hst_ext8180
+ - qcbtfmuart_hst8180
+ - QcPmicGlink8180

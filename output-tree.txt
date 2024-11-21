@@ -1,933 +1,734 @@
-~/Output  tree
+BSPOrganizer/Output/QC8180    master !3 ?2  tree                                                                                       ✔
 .
-├── components
-│   ├── Devices
-│   │   └── Yupik
-│   │       └── Platform
-│   │           ├── Drivers
-│   │           │   ├── Audio
-│   │           │   │   ├── AudMiniport
-│   │           │   │   │   ├── AudioResourceConstraints_7280.xml
-│   │           │   │   │   ├── ProxyAPO.dll
-│   │           │   │   │   ├── qcaudminiport7280.cat
-│   │           │   │   │   ├── qcaudminiport7280.sys
-│   │           │   │   │   └── qcaudminiport_Base7280.inf
-│   │           │   │   └── Device
-│   │           │   │       ├── qcaucd7280.cat
-│   │           │   │       ├── qcaucd7280.inf
-│   │           │   │       └── qcaucd7280.sys
-│   │           │   ├── Bluetooth
-│   │           │   │   └── BTFMUART_HSP
-│   │           │   │       ├── BSRC_BT.bin
-│   │           │   │       ├── msbtfw11.tlv
-│   │           │   │       ├── msnv11.b01
-│   │           │   │       ├── msnv11.b09
-│   │           │   │       ├── msnv11.b0a
-│   │           │   │       ├── msnv11.bin
-│   │           │   │       ├── qcbtfmuart_hsp7280.cat
-│   │           │   │       ├── qcbtfmuart_hsp7280.inf
-│   │           │   │       └── qcbtfmuart_hsp7280.sys
-│   │           │   ├── Camera
-│   │           │   │   ├── AuxiliarySensor
-│   │           │   │   │   ├── qccamauxsensor7280.cat
-│   │           │   │   │   ├── qccamauxsensor7280.inf
-│   │           │   │   │   └── qccamauxsensor7280.sys
-│   │           │   │   ├── AVStream
-│   │           │   │   │   ├── bm2n08.bin
-│   │           │   │   │   ├── libbitml_nsp_v2_skel.so
-│   │           │   │   │   ├── libcdsprpcarm32.dll
-│   │           │   │   │   ├── libcdsprpc.dll
-│   │           │   │   │   ├── liblumaSum_skel.so
-│   │           │   │   │   ├── qccamavs7280.cat
-│   │           │   │   │   ├── qccamavs7280.inf
-│   │           │   │   │   ├── qccamavs7280.sys
-│   │           │   │   │   └── QcDeviceMFT7280.dll
-│   │           │   │   ├── Flash
-│   │           │   │   │   ├── qccamflash7280.cat
-│   │           │   │   │   ├── qccamflash7280.inf
-│   │           │   │   │   └── qccamflash7280.sys
-│   │           │   │   ├── FrontCamera
-│   │           │   │   │   ├── CAMF_RES_CRD.bin
-│   │           │   │   │   ├── CAMF_RES_IDP_SKU2.bin
-│   │           │   │   │   ├── CAMF_RES_MTP.bin
-│   │           │   │   │   ├── com.qti.sensormodule.azurewave_ov5675.bin
-│   │           │   │   │   ├── com.qti.sensormodule.shinetech_ov2740.bin
-│   │           │   │   │   ├── com.qti.sensormodule.shinetech_ov2740_CRD.bin
-│   │           │   │   │   ├── com.qti.sensormodule.truly_imx476.bin
-│   │           │   │   │   ├── com.qti.tuned.akerr_ov2740.bin
-│   │           │   │   │   ├── com.qti.tuned.azurewave_ov5675.bin
-│   │           │   │   │   ├── com.qti.tuned.default.bin
-│   │           │   │   │   ├── com.qti.tuned.kodiak_ov2740.bin
-│   │           │   │   │   ├── com.qti.tuned.truly_imx476.bin
-│   │           │   │   │   ├── qccamfrontsensor_extension7280.cat
-│   │           │   │   │   ├── qccamfrontsensor_extension7280.inf
-│   │           │   │   │   ├── SCF1_FRONT_CRD.bin
-│   │           │   │   │   ├── SCF1_FRONT_IDP_SKU2.bin
-│   │           │   │   │   ├── SCFG_FRONT_CRD.bin
-│   │           │   │   │   ├── SCFG_FRONT_IDP_SKU2.bin
-│   │           │   │   │   ├── SCFG_FRONT_MTP.bin
-│   │           │   │   │   └── SCFG_FRONT_QRD.bin
-│   │           │   │   ├── FrontSensor
-│   │           │   │   │   ├── qccamfrontsensor7280.cat
-│   │           │   │   │   ├── qccamfrontsensor7280.inf
-│   │           │   │   │   └── qccamfrontsensor7280.sys
-│   │           │   │   └── ISP
-│   │           │   │       ├── CAMERA_ICP_AAAAAA.elf
-│   │           │   │       ├── qccamisp7280.cat
-│   │           │   │       ├── qccamisp7280.inf
-│   │           │   │       └── qccamisp7280.sys
-│   │           │   ├── Cellular
-│   │           │   │   └── IPA
-│   │           │   │       ├── ipa_fws.elf
-│   │           │   │       ├── ipa_resources.bin
-│   │           │   │       ├── qcipa7280.cat
-│   │           │   │       ├── qcipa7280.inf
-│   │           │   │       └── qcipa7280.sys
-│   │           │   ├── Graphics
-│   │           │   │   └── DXKM
-│   │           │   │       ├── libqcdx12arm64wslum.so
-│   │           │   │       ├── libqcdxarm64wslcompiler.so
-│   │           │   │       ├── qcdx11arm32um7280.dll
-│   │           │   │       ├── qcdx11arm64xum7280.dll
-│   │           │   │       ├── qcdx11chpeum7280.dll
-│   │           │   │       ├── qcdx11x86um7280.dll
-│   │           │   │       ├── qcdx12arm32um7280.dll
-│   │           │   │       ├── qcdx12arm64xum7280.dll
-│   │           │   │       ├── qcdx12chpeum7280.dll
-│   │           │   │       ├── qcdx12x86um7280.dll
-│   │           │   │       ├── qcdx7280.cat
-│   │           │   │       ├── qcdx7280.inf
-│   │           │   │       ├── qcdxarm32compiler7280.dll
-│   │           │   │       ├── qcdxarm64xcompiler7280.dll
-│   │           │   │       ├── qcdxchpecompiler7280.dll
-│   │           │   │       ├── qcdxkm7280.sys
-│   │           │   │       ├── qcdxkmbase7280_45_5.bin
-│   │           │   │       ├── qcdxkmbase7280_45.bin
-│   │           │   │       ├── qcdxkmbase7280_55_5.bin
-│   │           │   │       ├── qcdxkmbase7280_55.bin
-│   │           │   │       ├── qcdxkmbase7280_5.bin
-│   │           │   │       ├── qcdxkmbase7280_90_5.bin
-│   │           │   │       ├── qcdxkmbase7280_90.bin
-│   │           │   │       ├── qcdxkmbase7280.bin
-│   │           │   │       ├── qcdxkmsuc7280.mbn
-│   │           │   │       ├── qcdxsdarm32.dll
-│   │           │   │       ├── qcdxsdarm64x.dll
-│   │           │   │       ├── qcdxsdchpe.dll
-│   │           │   │       ├── qcdxsdx86.dll
-│   │           │   │       ├── qcdxwsaum.img
-│   │           │   │       ├── qcdxx86compiler7280.dll
-│   │           │   │       ├── qchdcpumd7280.dll
-│   │           │   │       ├── qcvidencarm64xmfth2647280.dll
-│   │           │   │       ├── qcvidencarm64xmfthevc7280.dll
-│   │           │   │       ├── qcvidencarm64xum7280.dll
-│   │           │   │       ├── qcvidencmfth2647280.dll
-│   │           │   │       ├── qcvidencmfthevc7280.dll
-│   │           │   │       ├── qcvidencum7280.dll
-│   │           │   │       ├── qcvidencx86mfth2647280.dll
-│   │           │   │       ├── qcvidencx86mfthevc7280.dll
-│   │           │   │       ├── qcvidencx86um7280.dll
-│   │           │   │       └── qcvss7280.mbn
-│   │           │   ├── Sensors
-│   │           │   │   └── SSC
-│   │           │   │       ├── qcsensors.cat
-│   │           │   │       ├── qcSensors.dll
-│   │           │   │       └── qcSensors.inf
-│   │           │   ├── Subsystems
-│   │           │   │   └── CombinedSubsystem
-│   │           │   │       ├── qcsubsys7280.cat
-│   │           │   │       ├── qcsubsys7280.inf
-│   │           │   │       └── qcsubsys7280.sys
-│   │           │   └── WLAN
-│   │           │       └── Core
-│   │           │           ├── bdwlan01.e01
-│   │           │           ├── bdwlan.e01
-│   │           │           ├── bdwlan.e02
-│   │           │           ├── bdwlan.e03
-│   │           │           ├── bdwlan.e04
-│   │           │           ├── bdwlan.e05
-│   │           │           ├── bdwlan.e06
-│   │           │           ├── bdwlan.e07
-│   │           │           ├── bdwlan.e09
-│   │           │           ├── bdwlan.e0a
-│   │           │           ├── bdwlan.elf
-│   │           │           ├── Data.msc
-│   │           │           ├── qcwlan7280.cat
-│   │           │           ├── qcwlan7280.inf
-│   │           │           ├── qcwlan7280.sys
-│   │           │           ├── qdss_trace_config.bin
-│   │           │           ├── regdb.bin
-│   │           │           └── wpss.mbn
-│   │           └── Extensions
-│   │               ├── Audio
-│   │               │   ├── ACDB
-│   │               │   │   ├── acdb_cal.acdb
-│   │               │   │   ├── ADCMResources.bin
-│   │               │   │   ├── fai__2.7.2_0.0__3.0.0_0.0__eai_1.10.pmd
-│   │               │   │   ├── fai_3.0.0_0.0_eai_1.00.pmd
-│   │               │   │   ├── qcacsp7280.cat
-│   │               │   │   ├── qcacsp_crd7280.inf
-│   │               │   │   └── workspaceFile.qwsp
-│   │               │   ├── AudMiniport
-│   │               │   │   ├── qcaudminiportcrd_extension7280.cat
-│   │               │   │   └── qcaudminiportCRD_Extension7280.inf
-│   │               │   ├── Device
-│   │               │   │   ├── ACDResources.bin
-│   │               │   │   ├── qcaucd_ext_crd_7280.cat
-│   │               │   │   └── qcaucd_ext_crd7280.inf
-│   │               │   └── ListenSoundModel
-│   │               │       ├── en-US-Alexa.bin
-│   │               │       ├── en-US-config
-│   │               │       ├── LangIds
-│   │               │       ├── qclistensm_swc_ext7280.cat
-│   │               │       └── QCListenSM_swc_ext7280.inf
-│   │               ├── Bluetooth
-│   │               │   └── BTFMUART_HSP
-│   │               │       ├── qcbtfmuart_ext7280.cat
-│   │               │       └── qcbtfmuart_ext7280.inf
-│   │               ├── Camera
-│   │               │   ├── AuxilarySensor
-│   │               │   │   ├── CAMI_RES_CRD.bin
-│   │               │   │   ├── CAMI_RES_IDP_SKU2.bin
-│   │               │   │   ├── com.qti.sensormodule.azurewave_ov9234.bin
-│   │               │   │   ├── com.qti.sensormodule.liteon_ov7251.bin
-│   │               │   │   ├── com.qti.tuned.azurewave_ov9234.bin
-│   │               │   │   ├── com.qti.tuned.default.bin
-│   │               │   │   ├── com.qti.tuned.liteon_ov7251.bin
-│   │               │   │   ├── qccamauxsensor_extension7280.cat
-│   │               │   │   ├── qccamauxsensor_extension7280.inf
-│   │               │   │   ├── SCF1_AUX_CRD.bin
-│   │               │   │   ├── SCF1_AUX_IDP_SKU2.bin
-│   │               │   │   ├── SCFG_AUX_CRD.bin
-│   │               │   │   └── SCFG_AUX_IDP_SKU2.bin
-│   │               │   ├── AVStream
-│   │               │   │   ├── qccamavscls_extension7280.cat
-│   │               │   │   ├── qccamavs_ext7280.inf
-│   │               │   │   └── QcPDMFT7280.dll
-│   │               │   ├── ISP
-│   │               │   │   ├── C2MD.bin
-│   │               │   │   ├── CIPF.bin
-│   │               │   │   ├── IRS1.bin
-│   │               │   │   ├── IRS2.bin
-│   │               │   │   ├── qccamisp_ext7280.cat
-│   │               │   │   └── qccamisp_ext7280.inf
-│   │               │   ├── JPEGEncoder
-│   │               │   │   ├── C0MD.bin
-│   │               │   │   ├── C0PF.bin
-│   │               │   │   ├── qccamjpege7280.cat
-│   │               │   │   ├── qccamjpege7280.inf
-│   │               │   │   ├── qccamjpege7280.sys
-│   │               │   │   ├── qccamjpege_ext7280.cat
-│   │               │   │   ├── qccamjpege_ext7280.inf
-│   │               │   │   ├── QcWICEncoder7280.dll
-│   │               │   │   └── QcWICEncoderARM7280.dll
-│   │               │   ├── MIPICSI
-│   │               │   │   ├── C1MD.bin
-│   │               │   │   ├── C1PF.bin
-│   │               │   │   ├── qccammipicsi_ext7280.cat
-│   │               │   │   └── qccammipicsi_ext7280.inf
-│   │               │   └── Platform
-│   │               │       ├── CAMP_PCF1_CRD.bin
-│   │               │       ├── CAMP_PCF1_IDP_SKU2.bin
-│   │               │       ├── CAMP_PCF1_MTP.bin
-│   │               │       ├── CAMP_PCFG_CRD.bin
-│   │               │       ├── CAMP_PCFG_IDP_SKU2.bin
-│   │               │       ├── CAMP_PCFG_MTP.bin
-│   │               │       ├── CAMP_PERF_CRD.bin
-│   │               │       ├── CAMP_PERF_IDP_SKU2.bin
-│   │               │       ├── CAMP_PERF_MTP.bin
-│   │               │       ├── CAMP_PRLD_CRD.bin
-│   │               │       ├── CAMP_PRLD_IDP_SKU2.bin
-│   │               │       ├── CAMP_RES_CRD.bin
-│   │               │       ├── CAMP_RES_IDP_SKU2.bin
-│   │               │       ├── CAMP_RES_MTP.bin
-│   │               │       ├── qccamplatform_ext7280.cat
-│   │               │       └── qccamplatform_ext7280.inf
-│   │               ├── Graphics
-│   │               │   └── DXKM
-│   │               │       ├── qcdxext_crd7280.cat
-│   │               │       ├── qcdxext_crd7280.inf
-│   │               │       └── qcdxkmext7280_CRD.bin
-│   │               ├── HexagonLoader
-│   │               │   └── PIL
-│   │               │       ├── qcpilext7280.cat
-│   │               │       └── qcpilEXT7280.inf
-│   │               ├── PMIC
-│   │               │   └── BatteryCurrentLimiter
-│   │               │       ├── qcfgbclext7280.cat
-│   │               │       └── qcfgbclext7280.inf
-│   │               ├── SensorsConfig
-│   │               │   ├── 7280_crd_ak991x_display.json
-│   │               │   ├── 7280_crd_ak991x_keyboard.json
-│   │               │   ├── 7280_crd_lsm6dst_display.json
-│   │               │   ├── 7280_crd_lsm6dst_keyboard.json
-│   │               │   ├── 7280_crd_tmd3702.json
-│   │               │   ├── 7280_idp_ak991x_0.json
-│   │               │   ├── 7280_idp_ak991x_1.json
-│   │               │   ├── 7280_idp_lsm6dst_0.json
-│   │               │   ├── 7280_idp_lsm6dst_1.json
-│   │               │   ├── 7280_idp_tmd3702.json
-│   │               │   ├── ak991x_dri_0.json
-│   │               │   ├── ak991x_dri_1.json
-│   │               │   ├── default_sensors.json
-│   │               │   ├── hw_platform
-│   │               │   ├── libadsprpc.dll
-│   │               │   ├── lsm6dst_0_16g.json
-│   │               │   ├── lsm6dst_0.json
-│   │               │   ├── lsm6dst_1_16g.json
-│   │               │   ├── lsm6dst_1.json
-│   │               │   ├── platform_subtype
-│   │               │   ├── platform_subtype_id
-│   │               │   ├── platform_version
-│   │               │   ├── qcsensorsconfigcrd7280.cat
-│   │               │   ├── qcSensorsConfigCrd7280.inf
-│   │               │   ├── revision
-│   │               │   ├── sns_amd.json
-│   │               │   ├── sns_amd_sw_disabled.json
-│   │               │   ├── sns_amd_sw_enabled.json
-│   │               │   ├── sns_aont.json
-│   │               │   ├── sns_ccd.json
-│   │               │   ├── sns_cm.json
-│   │               │   ├── sns_dae.json
-│   │               │   ├── sns_device_orient.json
-│   │               │   ├── sns_diag_filter.json
-│   │               │   ├── sns_fmv.json
-│   │               │   ├── sns_geomag_rv.json
-│   │               │   ├── sns_gyro_cal.json
-│   │               │   ├── sns_mag_cal.json
-│   │               │   ├── sns_reg_config
-│   │               │   ├── sns_rmd.json
-│   │               │   ├── sns_rotv.json
-│   │               │   ├── sns_tilt_sw_disabled.json
-│   │               │   ├── sns_tilt_sw_enabled.json
-│   │               │   ├── soc_id
-│   │               │   ├── stm_lid_angle.json
-│   │               │   └── tmd3702.json
-│   │               ├── SOC
-│   │               │   └── TrEE
-│   │               │       ├── OEM
-│   │               │       │   ├── qctreeextoem7280.cat
-│   │               │       │   └── QcTreeExtOem7280.inf
-│   │               │       └── QCOM
-│   │               │           ├── hdcp1.mbn
-│   │               │           ├── hdcp2p2.mbn
-│   │               │           ├── hdcpsrm.mbn
-│   │               │           ├── pr_3_wp.mbn
-│   │               │           ├── qctreeextqcom7280.cat
-│   │               │           └── QcTreeExtQcom7280.inf
-│   │               ├── Subsystems
-│   │               │   ├── Audio
-│   │               │   │   ├── ADSP
-│   │               │   │   │   ├── aac_dec_module.so.1
-│   │               │   │   │   ├── aac_enc_etsi_module.so.1
-│   │               │   │   │   ├── alac_dec_module.so.1
-│   │               │   │   │   ├── ape_dec_module.so.1
-│   │               │   │   │   ├── AudioSphereModule.so.1
-│   │               │   │   │   ├── celt_enc_module.so.1
-│   │               │   │   │   ├── CFCM.so.1
-│   │               │   │   │   ├── fastrpc_shell_0
-│   │               │   │   │   ├── ffecns_module_fvx.so.1
-│   │               │   │   │   ├── flac_dec_module.so.1
-│   │               │   │   │   ├── fluence_bs_module_fvx.so.1
-│   │               │   │   │   ├── fluence_ef_module_fvx.so.1
-│   │               │   │   │   ├── fluence_nn_module_fvx.so.1
-│   │               │   │   │   ├── fluence_pro_vc_module_fvx.so.1
-│   │               │   │   │   ├── fluence_pro_vr_module_fvx.so.1
-│   │               │   │   │   ├── ldac_enc_module.so.1
-│   │               │   │   │   ├── libstabilitydomain_skel.so
-│   │               │   │   │   ├── libsysmondomain_skel.so
-│   │               │   │   │   ├── libsysmonquery_skel.so
-│   │               │   │   │   ├── libsysmon_skel.so
-│   │               │   │   │   ├── map_AVS_SHARED_LIBS_kodiak.adsp.prodQ.txt
-│   │               │   │   │   ├── map_SHARED_LIBS_kodiak.adsp.prodQ.txt
-│   │               │   │   │   ├── MIC2AMBModule.so.1
-│   │               │   │   │   ├── mm_fluence_sb_module_fvx.so.1
-│   │               │   │   │   ├── SAPlusCmnModule.so.1
-│   │               │   │   │   ├── sbc_dec_module.so.1
-│   │               │   │   │   ├── sbc_enc_module.so.1
-│   │               │   │   │   ├── sdd_module.so.1
-│   │               │   │   │   ├── smecns_v2_module_fvx.so.1
-│   │               │   │   │   ├── sm_fluence_sb_module_fvx.so.1
-│   │               │   │   │   ├── vorbis_dec_module.so.1
-│   │               │   │   │   ├── wmapro_dec_module.so.1
-│   │               │   │   │   └── wmastd_dec_module.so.1
-│   │               │   │   ├── adspr.jsn
-│   │               │   │   ├── adsps.jsn
-│   │               │   │   ├── adspua.jsn
-│   │               │   │   ├── qcadsp7280.mbn
-│   │               │   │   ├── qcsubsys_ext_adsp7280.cat
-│   │               │   │   ├── qcsubsys_ext_adsp7280.inf
-│   │               │   │   └── RADS.bin
-│   │               │   ├── Compute
-│   │               │   │   ├── CDSP
-│   │               │   │   │   ├── example_image.so
-│   │               │   │   │   ├── fastrpc_shell_3
-│   │               │   │   │   ├── fastrpc_shell_unsigned_3
-│   │               │   │   │   ├── libbenchmark_skel.so
-│   │               │   │   │   ├── libc++abi.so.1
-│   │               │   │   │   ├── libc++.so.1
-│   │               │   │   │   ├── libcvpdsp_2_1_intermediate.so
-│   │               │   │   │   ├── libcvpdsp_2_1.so
-│   │               │   │   │   ├── libdsp_streamer_add_constant.so
-│   │               │   │   │   ├── libdsp_streamer_binning.so
-│   │               │   │   │   ├── libdsp_streamer_vpt.so
-│   │               │   │   │   ├── libhcp_rpc_skel.so
-│   │               │   │   │   ├── libloadalgo_skel.so
-│   │               │   │   │   ├── libnn_preproc_postproc.so
-│   │               │   │   │   ├── libnn_preproc.so
-│   │               │   │   │   ├── libQ6MSFR_manager_skel_intermediate.so
-│   │               │   │   │   ├── libQ6MSFR_manager_skel.so
-│   │               │   │   │   ├── libstabilitydomain_skel.so
-│   │               │   │   │   ├── libsysmondomain_skel.so
-│   │               │   │   │   ├── libsysmonhvxthrottle_skel.so
-│   │               │   │   │   ├── libsysmonquery_skel.so
-│   │               │   │   │   ├── libsysmon_skel.so
-│   │               │   │   │   ├── libvpp_svc_skel.so
-│   │               │   │   │   ├── map_SHARED_LIBS_kodiak.cdsp.prodQ.txt
-│   │               │   │   │   └── ubwcdma_dynlib.so
-│   │               │   │   ├── cdspr.jsn
-│   │               │   │   ├── qccdsp7280.mbn
-│   │               │   │   ├── qcsubsys_ext_cdsp7280.cat
-│   │               │   │   ├── qcsubsys_ext_cdsp7280.inf
-│   │               │   │   └── RCDS.bin
-│   │               │   ├── Modem
-│   │               │   │   ├── modemr.jsn
-│   │               │   │   ├── qcmpss7280_gps.mbn
-│   │               │   │   ├── qcmpss7280.mbn
-│   │               │   │   ├── qcsubsys_ext_mpss7280.cat
-│   │               │   │   ├── qcsubsys_ext_mpss7280.inf
-│   │               │   │   └── RAMS.bin
-│   │               │   ├── ModemConfig
-│   │               │   │   ├── MCFG
-│   │               │   │   │   ├── 544_0_0.mbn.164
-│   │               │   │   │   ├── 544_0_5.mbn.165
-│   │               │   │   │   ├── 544_0_8.mbn.166
-│   │               │   │   │   ├── 645_0_9.mbn.167
-│   │               │   │   │   ├── 645_0_a.mbn.168
-│   │               │   │   │   ├── 828_0.mbn.169
-│   │               │   │   │   ├── 829_0.mbn.170
-│   │               │   │   │   ├── 849_0_0.mbn.171
-│   │               │   │   │   ├── 849_0_2.mbn.172
-│   │               │   │   │   ├── 850_0_0.mbn.173
-│   │               │   │   │   ├── 881_0.mbn.174
-│   │               │   │   │   ├── 889_0_0.mbn.175
-│   │               │   │   │   ├── 901_0_0.mbn.176
-│   │               │   │   │   ├── 901_0_1.mbn.177
-│   │               │   │   │   ├── 901_0_2.mbn.178
-│   │               │   │   │   ├── 931_0_0.mbn.179
-│   │               │   │   │   ├── 934_0.mbn.180
-│   │               │   │   │   ├── mbn_hw_win.dig.11
-│   │               │   │   │   ├── mbn_hw_win_qsip_dssa.dig.13
-│   │               │   │   │   ├── mbn_hw_win_qsip_dssa.txt.14
-│   │               │   │   │   ├── mbn_hw_win_qsip_ss.dig.15
-│   │               │   │   │   ├── mbn_hw_win_qsip_ss.txt.16
-│   │               │   │   │   ├── mbn_hw_win.txt.12
-│   │               │   │   │   ├── mbn_sw_win.dig.158
-│   │               │   │   │   ├── mbn_sw_win_qsip.dig.160
-│   │               │   │   │   ├── mbn_sw_win_qsip.txt.161
-│   │               │   │   │   ├── mbn_sw_win.txt.159
-│   │               │   │   │   ├── mcfg_hw.mbn.1
-│   │               │   │   │   ├── mcfg_hw.mbn.10
-│   │               │   │   │   ├── mcfg_hw.mbn.2
-│   │               │   │   │   ├── mcfg_hw.mbn.3
-│   │               │   │   │   ├── mcfg_hw.mbn.4
-│   │               │   │   │   ├── mcfg_hw.mbn.5
-│   │               │   │   │   ├── mcfg_hw.mbn.6
-│   │               │   │   │   ├── mcfg_hw.mbn.7
-│   │               │   │   │   ├── mcfg_hw.mbn.8
-│   │               │   │   │   ├── mcfg_hw.mbn.9
-│   │               │   │   │   ├── mcfg_sw.mbn.100
-│   │               │   │   │   ├── mcfg_sw.mbn.101
-│   │               │   │   │   ├── mcfg_sw.mbn.102
-│   │               │   │   │   ├── mcfg_sw.mbn.103
-│   │               │   │   │   ├── mcfg_sw.mbn.104
-│   │               │   │   │   ├── mcfg_sw.mbn.105
-│   │               │   │   │   ├── mcfg_sw.mbn.106
-│   │               │   │   │   ├── mcfg_sw.mbn.107
-│   │               │   │   │   ├── mcfg_sw.mbn.108
-│   │               │   │   │   ├── mcfg_sw.mbn.109
-│   │               │   │   │   ├── mcfg_sw.mbn.110
-│   │               │   │   │   ├── mcfg_sw.mbn.111
-│   │               │   │   │   ├── mcfg_sw.mbn.112
-│   │               │   │   │   ├── mcfg_sw.mbn.113
-│   │               │   │   │   ├── mcfg_sw.mbn.114
-│   │               │   │   │   ├── mcfg_sw.mbn.115
-│   │               │   │   │   ├── mcfg_sw.mbn.116
-│   │               │   │   │   ├── mcfg_sw.mbn.117
-│   │               │   │   │   ├── mcfg_sw.mbn.118
-│   │               │   │   │   ├── mcfg_sw.mbn.119
-│   │               │   │   │   ├── mcfg_sw.mbn.120
-│   │               │   │   │   ├── mcfg_sw.mbn.121
-│   │               │   │   │   ├── mcfg_sw.mbn.122
-│   │               │   │   │   ├── mcfg_sw.mbn.123
-│   │               │   │   │   ├── mcfg_sw.mbn.124
-│   │               │   │   │   ├── mcfg_sw.mbn.125
-│   │               │   │   │   ├── mcfg_sw.mbn.126
-│   │               │   │   │   ├── mcfg_sw.mbn.127
-│   │               │   │   │   ├── mcfg_sw.mbn.128
-│   │               │   │   │   ├── mcfg_sw.mbn.129
-│   │               │   │   │   ├── mcfg_sw.mbn.130
-│   │               │   │   │   ├── mcfg_sw.mbn.131
-│   │               │   │   │   ├── mcfg_sw.mbn.132
-│   │               │   │   │   ├── mcfg_sw.mbn.133
-│   │               │   │   │   ├── mcfg_sw.mbn.134
-│   │               │   │   │   ├── mcfg_sw.mbn.135
-│   │               │   │   │   ├── mcfg_sw.mbn.136
-│   │               │   │   │   ├── mcfg_sw.mbn.137
-│   │               │   │   │   ├── mcfg_sw.mbn.138
-│   │               │   │   │   ├── mcfg_sw.mbn.139
-│   │               │   │   │   ├── mcfg_sw.mbn.140
-│   │               │   │   │   ├── mcfg_sw.mbn.141
-│   │               │   │   │   ├── mcfg_sw.mbn.142
-│   │               │   │   │   ├── mcfg_sw.mbn.143
-│   │               │   │   │   ├── mcfg_sw.mbn.144
-│   │               │   │   │   ├── mcfg_sw.mbn.145
-│   │               │   │   │   ├── mcfg_sw.mbn.146
-│   │               │   │   │   ├── mcfg_sw.mbn.147
-│   │               │   │   │   ├── mcfg_sw.mbn.148
-│   │               │   │   │   ├── mcfg_sw.mbn.149
-│   │               │   │   │   ├── mcfg_sw.mbn.150
-│   │               │   │   │   ├── mcfg_sw.mbn.151
-│   │               │   │   │   ├── mcfg_sw.mbn.152
-│   │               │   │   │   ├── mcfg_sw.mbn.153
-│   │               │   │   │   ├── mcfg_sw.mbn.154
-│   │               │   │   │   ├── mcfg_sw.mbn.155
-│   │               │   │   │   ├── mcfg_sw.mbn.156
-│   │               │   │   │   ├── mcfg_sw.mbn.157
-│   │               │   │   │   ├── mcfg_sw.mbn.19
-│   │               │   │   │   ├── mcfg_sw.mbn.20
-│   │               │   │   │   ├── mcfg_sw.mbn.21
-│   │               │   │   │   ├── mcfg_sw.mbn.22
-│   │               │   │   │   ├── mcfg_sw.mbn.23
-│   │               │   │   │   ├── mcfg_sw.mbn.24
-│   │               │   │   │   ├── mcfg_sw.mbn.25
-│   │               │   │   │   ├── mcfg_sw.mbn.26
-│   │               │   │   │   ├── mcfg_sw.mbn.27
-│   │               │   │   │   ├── mcfg_sw.mbn.28
-│   │               │   │   │   ├── mcfg_sw.mbn.29
-│   │               │   │   │   ├── mcfg_sw.mbn.30
-│   │               │   │   │   ├── mcfg_sw.mbn.31
-│   │               │   │   │   ├── mcfg_sw.mbn.32
-│   │               │   │   │   ├── mcfg_sw.mbn.33
-│   │               │   │   │   ├── mcfg_sw.mbn.34
-│   │               │   │   │   ├── mcfg_sw.mbn.35
-│   │               │   │   │   ├── mcfg_sw.mbn.36
-│   │               │   │   │   ├── mcfg_sw.mbn.37
-│   │               │   │   │   ├── mcfg_sw.mbn.38
-│   │               │   │   │   ├── mcfg_sw.mbn.39
-│   │               │   │   │   ├── mcfg_sw.mbn.40
-│   │               │   │   │   ├── mcfg_sw.mbn.41
-│   │               │   │   │   ├── mcfg_sw.mbn.42
-│   │               │   │   │   ├── mcfg_sw.mbn.43
-│   │               │   │   │   ├── mcfg_sw.mbn.44
-│   │               │   │   │   ├── mcfg_sw.mbn.45
-│   │               │   │   │   ├── mcfg_sw.mbn.46
-│   │               │   │   │   ├── mcfg_sw.mbn.47
-│   │               │   │   │   ├── mcfg_sw.mbn.48
-│   │               │   │   │   ├── mcfg_sw.mbn.49
-│   │               │   │   │   ├── mcfg_sw.mbn.50
-│   │               │   │   │   ├── mcfg_sw.mbn.51
-│   │               │   │   │   ├── mcfg_sw.mbn.52
-│   │               │   │   │   ├── mcfg_sw.mbn.53
-│   │               │   │   │   ├── mcfg_sw.mbn.54
-│   │               │   │   │   ├── mcfg_sw.mbn.55
-│   │               │   │   │   ├── mcfg_sw.mbn.56
-│   │               │   │   │   ├── mcfg_sw.mbn.57
-│   │               │   │   │   ├── mcfg_sw.mbn.58
-│   │               │   │   │   ├── mcfg_sw.mbn.59
-│   │               │   │   │   ├── mcfg_sw.mbn.60
-│   │               │   │   │   ├── mcfg_sw.mbn.61
-│   │               │   │   │   ├── mcfg_sw.mbn.62
-│   │               │   │   │   ├── mcfg_sw.mbn.63
-│   │               │   │   │   ├── mcfg_sw.mbn.64
-│   │               │   │   │   ├── mcfg_sw.mbn.65
-│   │               │   │   │   ├── mcfg_sw.mbn.66
-│   │               │   │   │   ├── mcfg_sw.mbn.67
-│   │               │   │   │   ├── mcfg_sw.mbn.68
-│   │               │   │   │   ├── mcfg_sw.mbn.69
-│   │               │   │   │   ├── mcfg_sw.mbn.70
-│   │               │   │   │   ├── mcfg_sw.mbn.71
-│   │               │   │   │   ├── mcfg_sw.mbn.72
-│   │               │   │   │   ├── mcfg_sw.mbn.73
-│   │               │   │   │   ├── mcfg_sw.mbn.74
-│   │               │   │   │   ├── mcfg_sw.mbn.75
-│   │               │   │   │   ├── mcfg_sw.mbn.76
-│   │               │   │   │   ├── mcfg_sw.mbn.77
-│   │               │   │   │   ├── mcfg_sw.mbn.78
-│   │               │   │   │   ├── mcfg_sw.mbn.79
-│   │               │   │   │   ├── mcfg_sw.mbn.80
-│   │               │   │   │   ├── mcfg_sw.mbn.81
-│   │               │   │   │   ├── mcfg_sw.mbn.82
-│   │               │   │   │   ├── mcfg_sw.mbn.83
-│   │               │   │   │   ├── mcfg_sw.mbn.84
-│   │               │   │   │   ├── mcfg_sw.mbn.85
-│   │               │   │   │   ├── mcfg_sw.mbn.86
-│   │               │   │   │   ├── mcfg_sw.mbn.87
-│   │               │   │   │   ├── mcfg_sw.mbn.88
-│   │               │   │   │   ├── mcfg_sw.mbn.89
-│   │               │   │   │   ├── mcfg_sw.mbn.90
-│   │               │   │   │   ├── mcfg_sw.mbn.91
-│   │               │   │   │   ├── mcfg_sw.mbn.92
-│   │               │   │   │   ├── mcfg_sw.mbn.93
-│   │               │   │   │   ├── mcfg_sw.mbn.94
-│   │               │   │   │   ├── mcfg_sw.mbn.95
-│   │               │   │   │   ├── mcfg_sw.mbn.96
-│   │               │   │   │   ├── mcfg_sw.mbn.97
-│   │               │   │   │   ├── mcfg_sw.mbn.98
-│   │               │   │   │   ├── mcfg_sw.mbn.99
-│   │               │   │   │   ├── oem_hw_win_qsip_dssa.txt.17
-│   │               │   │   │   ├── oem_hw_win_qsip_ss.txt.18
-│   │               │   │   │   ├── oem_sw_win_qsip.txt.163
-│   │               │   │   │   └── oem_sw_win.txt.162
-│   │               │   │   ├── mcfg_subsys_ext7280.cat
-│   │               │   │   ├── mcfg_subsys_ext7280.inf
-│   │               │   │   ├── qdsp6m_gps.qdb
-│   │               │   │   └── qdsp6m.qdb
-│   │               │   └── WPSS
-│   │               │       ├── qcsubsys_ext_wpss7280.cat
-│   │               │       ├── qcsubsys_ext_wpss7280.inf
-│   │               │       └── RWPS.bin
-│   │               └── WLAN
-│   │                   ├── WLAN
-│   │                   │   ├── qcwlan_ext7280.cat
-│   │                   │   └── qcwlan_ext7280.inf
-│   │                   └── WPSS
-│   │                       ├── qcwlan_ext_wpss7280.cat
-│   │                       ├── qcwlan_ext_wpss7280.inf
-│   │                       ├── wpss.qdb
-│   │                       └── wpssr.jsn
-│   └── QC7325
-│       ├── Drivers
-│       │   ├── Audio
-│       │   │   ├── ADCM
-│       │   │   │   ├── qcadcm7280.cat
-│       │   │   │   ├── qcadcm7280.inf
-│       │   │   │   └── qcadcm7280.sys
-│       │   │   ├── ListenSoundModel
-│       │   │   │   ├── qclistensm7280.cat
-│       │   │   │   └── QCListenSM7280.inf
-│       │   │   ├── ListenSoundModelSWC
-│       │   │   │   ├── qclistensm_swc7280.cat
-│       │   │   │   ├── QCListenSM_swc7280.inf
-│       │   │   │   └── QCListenSoundModel.dll
-│       │   │   ├── RPC
-│       │   │   │   ├── ADSPRPC
-│       │   │   │   │   ├── libadsprpcarm32.dll
-│       │   │   │   │   ├── libadsprpc.dll
-│       │   │   │   │   ├── libcdsprpcarm32.dll
-│       │   │   │   │   ├── libcdsprpc.dll
-│       │   │   │   │   ├── libsdsprpcarm32.dll
-│       │   │   │   │   ├── libsdsprpc.dll
-│       │   │   │   │   ├── qcadsprpc7280.cat
-│       │   │   │   │   ├── qcadsprpc7280.inf
-│       │   │   │   │   └── qcadsprpc7280.sys
-│       │   │   │   └── ADSPRPCD
-│       │   │   │       ├── qcadsprpcd7280.cat
-│       │   │   │       ├── qcadsprpcd7280.inf
-│       │   │   │       └── qcadsprpcd7280.sys
-│       │   │   └── SlimBus
-│       │   │       ├── qcslimbus7280.cat
-│       │   │       ├── qcslimbus7280.inf
-│       │   │       ├── qcslimbus7280.sys
-│       │   │       └── SLM1.bin
-│       │   ├── Battery
-│       │   │   └── BatteryCurrentLimiter
-│       │   │       ├── qcfgbcl7280.cat
-│       │   │       ├── qcfgbcl7280.inf
-│       │   │       └── Qcfgbcl7280.sys
-│       │   ├── Bluetooth
-│       │   │   └── AddVSCRegistry
-│       │   │       ├── qcbtaddvscregistry7280.cat
-│       │   │       └── qcbtaddvscregistry7280.inf
-│       │   ├── Camera
-│       │   │   ├── MIPICSI
-│       │   │   │   ├── qccammipicsi7280.cat
-│       │   │   │   ├── qccammipicsi7280.inf
-│       │   │   │   └── qccammipicsi7280.sys
-│       │   │   └── Platform
-│       │   │       ├── com.qti.tuned.default.bin
-│       │   │       ├── qccamplatform7280.cat
-│       │   │       ├── qccamplatform7280.inf
-│       │   │       └── qccamplatform7280.sys
-│       │   ├── Cellular
-│       │   │   ├── 5GNRCoexistenceManager
-│       │   │   │   ├── qc5gnrcoexmgr7280.cat
-│       │   │   │   ├── qc5gnrcoexmgr7280.dll
-│       │   │   │   └── qc5gnrcoexmgr7280.inf
-│       │   │   ├── CCID
-│       │   │   │   ├── qcccidbridge7280.cat
-│       │   │   │   ├── qcccidbridge7280.inf
-│       │   │   │   └── qcccidbridge7280.sys
-│       │   │   ├── DeepStandby
-│       │   │   │   ├── qcdeepstandbymdm7280.cat
-│       │   │   │   ├── qcdeepstandbymdm7280.dll
-│       │   │   │   └── qcdeepstandbymdm7280.inf
-│       │   │   ├── DiagBridge
-│       │   │   │   ├── qcdiagbridge.cat
-│       │   │   │   ├── QCDiagBridge.inf
-│       │   │   │   └── QCDiagBridge.sys
-│       │   │   ├── DiagCSI
-│       │   │   │   ├── qcdiagcsi7280.cat
-│       │   │   │   ├── qcdiagcsi7280.inf
-│       │   │   │   └── qcdiagcsi7280.sys
-│       │   │   ├── DiagRouter
-│       │   │   │   ├── qcdiaglogging.dll
-│       │   │   │   ├── qcdiagrouter7280.cat
-│       │   │   │   ├── qcdiagrouter7280.inf
-│       │   │   │   └── qcdiagrouter7280.sys
-│       │   │   ├── DPL
-│       │   │   │   ├── qcdplbridge7280.cat
-│       │   │   │   ├── qcdplbridge7280.inf
-│       │   │   │   ├── qcdplbridge7280.sys
-│       │   │   │   ├── qcodl.exe
-│       │   │   │   └── ReadMe.txt
-│       │   │   ├── IPCRouter
-│       │   │   │   ├── qcipcrouter7280.cat
-│       │   │   │   ├── qcipcrouter7280.inf
-│       │   │   │   ├── qcipcrouter7280.sys
-│       │   │   │   └── qsocketipcrum.dll
-│       │   │   ├── MBBNetAdapter
-│       │   │   │   ├── qcmbbnetadapter7280.cat
-│       │   │   │   ├── qcmbbnetadapter7280.inf
-│       │   │   │   ├── qcmbbnetadapter7280.sys
-│       │   │   │   └── qcmbbnetadapterfilter7280.sys
-│       │   │   ├── ModemBridge
-│       │   │   │   ├── qcmbrg7280.cat
-│       │   │   │   ├── qcmbrg7280.inf
-│       │   │   │   └── qcmbrg7280.sys
-│       │   │   ├── RemoteAT
-│       │   │   │   ├── qcremoteat7280.cat
-│       │   │   │   ├── qcremoteat7280.inf
-│       │   │   │   ├── qcremoteat7280.sys
-│       │   │   │   └── qcremoteatsrvc7280.exe
-│       │   │   ├── RemoteFS
-│       │   │   │   ├── qcremotefs7280.cat
-│       │   │   │   ├── qcremotefs7280.inf
-│       │   │   │   └── qcremotefs7280.sys
-│       │   │   ├── RmnetBridge
-│       │   │   │   ├── qcrmnetbridge7280.cat
-│       │   │   │   ├── qcrmnetbridge7280.inf
-│       │   │   │   └── qcrmnetbridge7280.sys
-│       │   │   └── ThermalMDM
-│       │   │       ├── qcthermalmdm7280.cat
-│       │   │       ├── qcthermalmdm7280.inf
-│       │   │       └── qcthermalmdm7280.sys
-│       │   ├── GPS
-│       │   │   ├── qcgnss7280.inf
-│       │   │   ├── qcgnss.cat
-│       │   │   └── qcgnss.dll
-│       │   ├── HALs
-│       │   │   └── WatchDog
-│       │   │       ├── HalExtQCWdogTimer7280.inf
-│       │   │       ├── halextqcwdogtimer.cat
-│       │   │       └── HalExtQCWdogTimer.dll
-│       │   ├── HWNLED
-│       │   │   ├── qchwnled7280.cat
-│       │   │   ├── qchwnled7280.inf
-│       │   │   └── qchwnled7280.sys
-│       │   ├── SAR
-│       │   │   ├── qsarmgr.cat
-│       │   │   ├── qSarMgr.dll
-│       │   │   └── qSarMgr.inf
-│       │   ├── Shutdown
-│       │   │   ├── qcshutdownsvc.cat
-│       │   │   ├── qcshutdownsvc.dll
-│       │   │   └── qcshutdownsvc.inf
-│       │   ├── SOC
-│       │   │   ├── ACPI
-│       │   │   │   ├── qcabd.cat
-│       │   │   │   ├── qcabd.inf
-│       │   │   │   └── qcabd.sys
-│       │   │   ├── Buses
-│       │   │   │   ├── GLINK
-│       │   │   │   │   ├── qcglink7280.cat
-│       │   │   │   │   ├── qcglink7280.inf
-│       │   │   │   │   └── qcglink7280.sys
-│       │   │   │   └── GPI
-│       │   │   │       ├── qcgpi7280.cat
-│       │   │   │       ├── qcgpi7280.inf
-│       │   │   │       └── qcgpi7280.sys
-│       │   │   ├── GPIO
-│       │   │   │   ├── qcgpio7280.inf
-│       │   │   │   ├── qcgpio.cat
-│       │   │   │   └── qcgpio.sys
-│       │   │   ├── HexagonLoader
-│       │   │   │   ├── PIL
-│       │   │   │   │   ├── qcpil.cat
-│       │   │   │   │   ├── qcpil.inf
-│       │   │   │   │   └── qcpil.sys
-│       │   │   │   └── SecureKernel
-│       │   │   │       ├── qcskext7280.cat
-│       │   │   │       ├── QcSkExt7280.exe
-│       │   │   │       └── QcSkExt7280.inf
-│       │   │   ├── I2C
-│       │   │   │   ├── BSRC_I2CR.bin
-│       │   │   │   ├── BSRC_ICRS.bin
-│       │   │   │   ├── qci2c7280.cat
-│       │   │   │   ├── qci2c7280.inf
-│       │   │   │   └── qci2c7280.sys
-│       │   │   ├── IOMMU
-│       │   │   │   ├── qciommu.cat
-│       │   │   │   ├── qciommu.inf
-│       │   │   │   └── qciommu.sys
-│       │   │   ├── PCIe
-│       │   │   │   ├── qcppx7280.cat
-│       │   │   │   ├── qcppx7280.inf
-│       │   │   │   └── qcppx7280.sys
-│       │   │   ├── PMIC
-│       │   │   │   ├── Apps
-│       │   │   │   │   ├── qcpmicapps7280.cat
-│       │   │   │   │   ├── QcPmicApps7280.inf
-│       │   │   │   │   └── QcPmicApps7280.sys
-│       │   │   │   ├── Core
-│       │   │   │   │   ├── qcpmic7280.cat
-│       │   │   │   │   ├── qcpmic7280.inf
-│       │   │   │   │   └── qcpmic7280.sys
-│       │   │   │   └── GPIO
-│       │   │   │       ├── qcpmicgpio7280.cat
-│       │   │   │       ├── qcpmicgpio7280.inf
-│       │   │   │       └── qcpmicgpio7280.sys
-│       │   │   ├── PowerManagement
-│       │   │   │   ├── PPMSettings-7280Profiles.wd.ppkg
-│       │   │   │   ├── qcpep7280.cat
-│       │   │   │   ├── qcpep7280.sys
-│       │   │   │   └── qcpep.wd7280.inf
-│       │   │   ├── Provisioning
-│       │   │   │   ├── qcsocpartition.cat
-│       │   │   │   ├── QcSOCPartition.inf
-│       │   │   │   └── QcSOCPartition.sys
-│       │   │   ├── ResetPower
-│       │   │   │   ├── qccdi7280.cat
-│       │   │   │   ├── qccdi7280.inf
-│       │   │   │   ├── qccdi7280.sys
-│       │   │   │   └── ResetProtectionEnabler
-│       │   │   │       ├── qcrpen.cat
-│       │   │   │       ├── qcrpen.inf
-│       │   │   │       └── qcrpen.sys
-│       │   │   ├── System
-│       │   │   │   ├── AutoReg
-│       │   │   │   │   ├── qcpsautoreg7280.cat
-│       │   │   │   │   ├── qcpsautoreg7280.dll
-│       │   │   │   │   └── qcpsautoreg7280.inf
-│       │   │   │   ├── BusAccessModule
-│       │   │   │   │   ├── qckmbam7280.cat
-│       │   │   │   │   ├── qckmbam7280.inf
-│       │   │   │   │   └── qckmbam7280.sys
-│       │   │   │   ├── CacheController
-│       │   │   │   │   ├── qcsyscache7280.cat
-│       │   │   │   │   ├── qcsyscache7280.inf
-│       │   │   │   │   └── qcsyscache7280.sys
-│       │   │   │   ├── IPCC
-│       │   │   │   │   ├── qcipcc7280.cat
-│       │   │   │   │   ├── qcipcc7280.inf
-│       │   │   │   │   └── qcipcc7280.sys
-│       │   │   │   ├── SCM
-│       │   │   │   │   ├── qcscm.cat
-│       │   │   │   │   ├── qcscm.inf
-│       │   │   │   │   ├── qcscm.sys
-│       │   │   │   │   └── SCMF.bin
-│       │   │   │   ├── SecApp
-│       │   │   │   │   ├── qcsecapp.cat
-│       │   │   │   │   ├── qcsecapp.inf
-│       │   │   │   │   └── qcsecapp.sys
-│       │   │   │   ├── SMMU
-│       │   │   │   │   ├── qcsmmu7280.cat
-│       │   │   │   │   ├── qcsmmu7280.inf
-│       │   │   │   │   ├── qcsmmu7280.sys
-│       │   │   │   │   └── SMMC.bin
-│       │   │   │   ├── SPMI
-│       │   │   │   │   ├── qcspmi7280.cat
-│       │   │   │   │   ├── qcspmi7280.inf
-│       │   │   │   │   └── qcspmi7280.sys
-│       │   │   │   ├── Transports
-│       │   │   │   │   ├── qctftpkmdf.cat
-│       │   │   │   │   ├── QcTftpKmdf.inf
-│       │   │   │   │   └── QcTftpKmdf.sys
-│       │   │   │   └── VoltageCurrentMonitoring
-│       │   │   │       ├── ADC1.bin
-│       │   │   │       ├── qcadc7280.cat
-│       │   │   │       ├── qcadc7280.inf
-│       │   │   │       └── qcadc7280.sys
-│       │   │   └── TrEE
-│       │   │       ├── qctree.cat
-│       │   │       ├── QcTrEE.inf
-│       │   │       └── QcTrEE.sys
-│       │   ├── Subsystems
-│       │   │   ├── ADSPDaemon
-│       │   │   │   ├── qcadspdaemon7280.cat
-│       │   │   │   ├── qcadspdaemon7280.inf
-│       │   │   │   └── qcadspdaemon7280.sys
-│       │   │   ├── ProtectionDomainServiceRegistry
-│       │   │   │   ├── qcpdsr.cat
-│       │   │   │   ├── qcpdsr.inf
-│       │   │   │   └── qcpdsr.sys
-│       │   │   └── ThermalMgr
-│       │   │       ├── qcsubsysthermalmgr.cat
-│       │   │       ├── qcSubsysThermalMgr.inf
-│       │   │       └── qcSubsysThermalMgr.sys
-│       │   ├── USB
-│       │   │   └── UCSI
-│       │   │       ├── qcusbcucsi7280.cat
-│       │   │       ├── qcusbcucsi7280.inf
-│       │   │       ├── qcusbcucsi7280.sys
-│       │   │       └── UCS0.bin
-│       │   ├── USBFn
-│       │   │   ├── Interfaces
-│       │   │   │   ├── qccomposite.cat
-│       │   │   │   ├── ufnserialclass.sys
-│       │   │   │   └── ufnserialcomposite.inf
-│       │   │   └── SuperSpeedFilter
-│       │   │       ├── qcusbfnssfilter7280.cat
-│       │   │       ├── QcUsbFnSsFilter7280.inf
-│       │   │       └── QcUsbFnSsFilter7280.sys
-│       │   └── USBHost
-│       │       ├── qcxhcifilter7280.cat
-│       │       ├── QcXhciFilter7280.inf
-│       │       └── QcXhciFilter7280.sys
-│       ├── Extensions
-│       │   ├── Cellular
-│       │   │   ├── 5GNRCoexistenceManager
-│       │   │   │   ├── qc5gnrcoexmgr_ext7280.cat
-│       │   │   │   └── qc5gnrcoexmgr_ext7280.inf
-│       │   │   ├── IPA
-│       │   │   │   ├── mbbntad_resources.bin
-│       │   │   │   ├── qcipaext7280.cat
-│       │   │   │   └── qcipaext7280.inf
-│       │   │   └── MBBNetAdapter
-│       │   │       ├── qcmbbnetadapter_ext7280.cat
-│       │   │       └── qcmbbnetadapter_ext7280.inf
-│       │   ├── HexagonLoader
-│       │   │   └── PILFilter
-│       │   │       ├── qcpilfilterext.cat
-│       │   │       ├── qcpilfilterext.inf
-│       │   │       └── QCPILFilter.sys
-│       │   ├── PMIC
-│       │   │   └── Core
-│       │   │       ├── qcpmicext7280.cat
-│       │   │       └── qcpmicext7280.inf
-│       │   ├── SARConfig
-│       │   │   ├── qsarconfig7280.cat
-│       │   │   └── qsarconfig7280.inf
-│       │   └── SOC
-│       │       └── IOMMU
-│       │           ├── qciommuext7280.cat
-│       │           └── qciommuext7280.inf
-│       └── Firmware
-│           ├── EMMC
-│           │   ├── qcfirmware7280.cat
-│           │   ├── qcfirmware7280_EMMC.inf
-│           │   └── qcfirmware7280v_EMMC06600000.cap
-│           ├── NVME
-│           │   ├── qcfirmware7280.cat
-│           │   ├── qcfirmware7280_NVME.inf
-│           │   └── qcfirmware7280v_NVME06600000.cap
-│           └── UFS
-│               ├── qcfirmware7280.cat
-│               ├── qcfirmware7280_UFS.inf
-│               └── qcfirmware7280v_UFS06600000.cap
-└── definitions
-    └── Desktop
-        └── ARM64
-            └── Internal
-                └── Yupik.xml
+├── Drivers
+│   ├── Audio
+│   │   ├── ADCM
+│   │   │   ├── qcadcm8180.cat
+│   │   │   ├── qcadcm8180.inf
+│   │   │   └── qcadcm8180.sys
+│   │   ├── AudMiniport
+│   │   │   ├── AudioResourceConstraints_8180.xml
+│   │   │   ├── ProxyAPO.dll
+│   │   │   ├── qcaudminiport8180.cat
+│   │   │   ├── qcaudminiport8180.sys
+│   │   │   └── qcaudminiport_Base8180.inf
+│   │   ├── Device
+│   │   │   ├── qcauddev8180.cat
+│   │   │   ├── qcauddev8180.inf
+│   │   │   └── qcauddev8180.sys
+│   │   ├── ListenSoundModel
+│   │   │   ├── qclistensm8180.cat
+│   │   │   └── QCListenSM8180.inf
+│   │   ├── ListenSoundModelSWC
+│   │   │   ├── qclistensm_swc8180.cat
+│   │   │   ├── QCListenSM_swc8180.inf
+│   │   │   └── QCListenSoundModel.dll
+│   │   ├── RPC
+│   │   │   ├── ADSPRPC
+│   │   │   │   ├── libadsprpcarm32.dll
+│   │   │   │   ├── libadsprpc.dll
+│   │   │   │   ├── libcdsprpcarm32.dll
+│   │   │   │   ├── libcdsprpc.dll
+│   │   │   │   ├── libsdsprpcarm32.dll
+│   │   │   │   ├── libsdsprpc.dll
+│   │   │   │   ├── qcadsprpc8180.cat
+│   │   │   │   ├── qcadsprpc8180.inf
+│   │   │   │   └── qcadsprpc8180.sys
+│   │   │   └── ADSPRPCD
+│   │   │       ├── qcadsprpcd8180.cat
+│   │   │       ├── qcadsprpcd8180.inf
+│   │   │       └── qcadsprpcd8180.sys
+│   │   └── SlimBus
+│   │       ├── qcslimbus8180.cat
+│   │       ├── qcslimbus8180.inf
+│   │       └── qcslimbus8180.sys
+│   ├── Battery
+│   │   └── BatteryCurrentLimiter
+│   │       ├── qcfgbcl8180.cat
+│   │       ├── qcfgbcl8180.inf
+│   │       └── Qcfgbcl8180.sys
+│   ├── Bluetooth
+│   │   ├── AddVSCRegistry
+│   │   │   ├── qcbtaddvscregistry8180.cat
+│   │   │   └── qcbtaddvscregistry8180.inf
+│   │   └── BTFMUART
+│   │       ├── crbtfw21.tlv
+│   │       ├── crnv21.b3c
+│   │       ├── crnv21.b44
+│   │       ├── crnv21.b45
+│   │       ├── crnv21.b46
+│   │       ├── crnv21.b47
+│   │       ├── crnv21.b71
+│   │       ├── crnv21.bin
+│   │       ├── qcbtfmuart8180.cat
+│   │       ├── qcbtfmuart8180.inf
+│   │       └── qcbtfmuart8180.sys
+│   ├── Camera
+│   │   ├── AuxiliarySensor
+│   │   │   ├── qccamauxsensor8180.cat
+│   │   │   ├── qccamauxsensor8180.inf
+│   │   │   └── qccamauxsensor8180.sys
+│   │   ├── FrontCamera
+│   │   │   ├── com.qti.sensormodule.akerr_ov5695.bin
+│   │   │   ├── com.qti.sensormodule.akerr_ov5695_compal.bin
+│   │   │   ├── com.qti.sensormodule.ofilm_ov12a10_front.bin
+│   │   │   ├── com.qti.tuned.akerr_ov5695.bin
+│   │   │   ├── com.qti.tuned.default.bin
+│   │   │   ├── com.qti.tuned.ofilm_ov12a10.bin
+│   │   │   ├── qccamfrontsensor_extension8180.cat
+│   │   │   └── qccamfrontsensor_extension8180.inf
+│   │   ├── FrontSensor
+│   │   │   ├── qccamfrontsensor8180.cat
+│   │   │   ├── qccamfrontsensor8180.inf
+│   │   │   └── qccamfrontsensor8180.sys
+│   │   ├── ISP
+│   │   │   ├── CAMERA_ICP_AAAAAA.elf
+│   │   │   ├── qccamisp8180.cat
+│   │   │   ├── qccamisp8180.inf
+│   │   │   └── qccamisp8180.sys
+│   │   ├── MIPICSI
+│   │   │   ├── qccammipicsi8180.cat
+│   │   │   ├── qccammipicsi8180.inf
+│   │   │   └── qccammipicsi8180.sys
+│   │   ├── Platform
+│   │   │   ├── com.qti.tuned.default.bin
+│   │   │   ├── qccamplatform8180.cat
+│   │   │   ├── qccamplatform8180.inf
+│   │   │   └── qccamplatform8180.sys
+│   │   └── RearSensor
+│   │       ├── qccamrearsensor8180.cat
+│   │       ├── qccamrearsensor8180.inf
+│   │       └── qccamrearsensor8180.sys
+│   ├── Cellular
+│   │   ├── CCID
+│   │   │   ├── qcccidbridge8180.cat
+│   │   │   ├── qcccidbridge8180.inf
+│   │   │   └── qcccidbridge8180.sys
+│   │   ├── DiagBridge
+│   │   │   ├── qcdiagbridge.cat
+│   │   │   ├── QCDiagBridge.inf
+│   │   │   └── QCDiagBridge.sys
+│   │   ├── DiagCSI
+│   │   │   ├── qcdiagcsi8180.cat
+│   │   │   ├── qcdiagcsi8180.inf
+│   │   │   └── qcdiagcsi8180.sys
+│   │   ├── DiagRouter
+│   │   │   ├── QCDiagKernelLogging.sys
+│   │   │   ├── qcdiaglogging.dll
+│   │   │   ├── qcdiagrouter8180.cat
+│   │   │   ├── qcdiagrouter8180.inf
+│   │   │   └── qcdiagrouter8180.sys
+│   │   ├── DPL
+│   │   │   ├── qcdplbridge8180.cat
+│   │   │   ├── qcdplbridge8180.inf
+│   │   │   ├── qcdplbridge8180.sys
+│   │   │   ├── qcodl.exe
+│   │   │   └── ReadMe.txt
+│   │   ├── GSI
+│   │   │   ├── qcgsi8180.cat
+│   │   │   ├── qcgsi8180.inf
+│   │   │   └── qcgsi8180.sys
+│   │   ├── IPA
+│   │   │   ├── ipa_fws.elf
+│   │   │   ├── qcipa8180.cat
+│   │   │   ├── qcipa8180.inf
+│   │   │   └── qcipa8180.sys
+│   │   ├── IPCRouter
+│   │   │   ├── qcipcrouter8180.cat
+│   │   │   ├── qcipcrouter8180.inf
+│   │   │   ├── qcipcrouter8180.sys
+│   │   │   └── qsocketipcrum.dll
+│   │   ├── LteCoexistenceManager
+│   │   │   ├── qcltecoexmgr8180.cat
+│   │   │   ├── QcLteCoexMgr8180.inf
+│   │   │   └── QcLteCoexMgr8180.sys
+│   │   ├── MBB
+│   │   │   ├── qcmbb8180.cat
+│   │   │   ├── qcmbb8180.inf
+│   │   │   └── qcmbb8180.sys
+│   │   ├── ModemBridge
+│   │   │   ├── qcmbrg8180.cat
+│   │   │   ├── qcmbrg8180.inf
+│   │   │   └── qcmbrg8180.sys
+│   │   ├── RemoteAT
+│   │   │   ├── qcremoteat8180.cat
+│   │   │   ├── qcremoteat8180.inf
+│   │   │   ├── qcremoteat8180.sys
+│   │   │   └── qcremoteatsrvc8180.exe
+│   │   ├── RemoteFS
+│   │   │   ├── qcremotefs8180.cat
+│   │   │   ├── qcremotefs8180.inf
+│   │   │   └── qcremotefs8180.sys
+│   │   ├── RevRmnet
+│   │   │   ├── qcrevrmnet8180.inf
+│   │   │   ├── qcrevrmnet.sys
+│   │   │   ├── revrmnet8180.cat
+│   │   │   └── wifinotifiersrvc8180.exe
+│   │   └── RmnetBridge
+│   │       ├── qcrmnetbridge8180.cat
+│   │       ├── qcrmnetbridge8180.inf
+│   │       └── qcrmnetbridge8180.sys
+│   ├── GPS
+│   │   ├── qcgnss8180.inf
+│   │   ├── qcgnss.cat
+│   │   └── qcgnss.dll
+│   ├── Graphics
+│   │   └── DXKM
+│   │       ├── libqcdx12arm64wslum.so
+│   │       ├── libqcdxarm64wslcompiler.so
+│   │       ├── qcdx11arm32um8180.dll
+│   │       ├── qcdx11arm64xum8180.dll
+│   │       ├── qcdx11chpeum8180.dll
+│   │       ├── qcdx11x86um8180.dll
+│   │       ├── qcdx12arm32um8180.dll
+│   │       ├── qcdx12arm64xum8180.dll
+│   │       ├── qcdx12chpeum8180.dll
+│   │       ├── qcdx12x86um8180.dll
+│   │       ├── qcdx8180.cat
+│   │       ├── qcdx8180.inf
+│   │       ├── qcdxarm32compiler8180.dll
+│   │       ├── qcdxarm64xcompiler8180.dll
+│   │       ├── qcdxchpecompiler8180.dll
+│   │       ├── qcdxkm8180.sys
+│   │       ├── qcdxkmsuc8180.mbn
+│   │       ├── qcdxsdarm32.dll
+│   │       ├── qcdxsdarm64x.dll
+│   │       ├── qcdxsdchpe.dll
+│   │       ├── qcdxsdx86.dll
+│   │       ├── qcdxwsaum.img
+│   │       ├── qcdxx86compiler8180.dll
+│   │       ├── qchdcpumd8180.dll
+│   │       ├── qcvidencarm64xmfth2648180.dll
+│   │       ├── qcvidencarm64xmfthevc8180.dll
+│   │       ├── qcvidencarm64xum8180.dll
+│   │       ├── qcvidencmfth2648180.dll
+│   │       ├── qcvidencmfthevc8180.dll
+│   │       ├── qcvidencum8180.dll
+│   │       ├── qcvidencx86mfth2648180.dll
+│   │       ├── qcvidencx86mfthevc8180.dll
+│   │       ├── qcvidencx86um8180.dll
+│   │       └── qcvss8180.mbn
+│   ├── HALs
+│   │   └── WatchDog
+│   │       ├── HalExtQCWdogTimer8180.inf
+│   │       ├── halextqcwdogtimer.cat
+│   │       └── HalExtQCWdogTimer.dll
+│   ├── HWNLED
+│   │   ├── qchwnled8180.cat
+│   │   ├── qchwnled8180.inf
+│   │   └── qchwnled8180.sys
+│   ├── Shutdown
+│   │   ├── qcshutdownsvc.cat
+│   │   ├── qcshutdownsvc.dll
+│   │   └── qcshutdownsvc.inf
+│   ├── SoC
+│   │   └── System
+│   │       └── SCM
+│   │           ├── qcscm8180.cat
+│   │           ├── qcscm8180.inf
+│   │           └── qcscm8180.sys
+│   ├── SOC
+│   │   ├── ACPI
+│   │   │   ├── qcabd.cat
+│   │   │   ├── qcabd.inf
+│   │   │   └── qcabd.sys
+│   │   ├── Buses
+│   │   │   ├── GLINK
+│   │   │   │   ├── qcglink8180.cat
+│   │   │   │   ├── qcglink8180.inf
+│   │   │   │   └── qcglink8180.sys
+│   │   │   └── GPI
+│   │   │       ├── qcgpi8180.cat
+│   │   │       ├── qcgpi8180.inf
+│   │   │       └── qcgpi8180.sys
+│   │   ├── GPIO
+│   │   │   ├── qcgpio8180.inf
+│   │   │   ├── qcgpio.cat
+│   │   │   └── qcgpio.sys
+│   │   ├── I2C
+│   │   │   ├── qci2c8180.cat
+│   │   │   ├── qci2c8180.inf
+│   │   │   └── qci2c8180.sys
+│   │   ├── IOMMU
+│   │   │   ├── qciommu8180.cat
+│   │   │   ├── qciommu8180.inf
+│   │   │   └── qciommu8180.sys
+│   │   ├── PCIe
+│   │   │   ├── qcppx8180.cat
+│   │   │   ├── qcppx8180.inf
+│   │   │   └── qcppx8180.sys
+│   │   ├── PMIC
+│   │   │   ├── Apps
+│   │   │   │   ├── qcpmicapps8180.cat
+│   │   │   │   ├── QcPmicApps8180.inf
+│   │   │   │   └── QcPmicApps8180.sys
+│   │   │   ├── Core
+│   │   │   │   ├── qcpmic8180.cat
+│   │   │   │   ├── qcpmic8180.inf
+│   │   │   │   └── qcpmic8180.sys
+│   │   │   └── GPIO
+│   │   │       ├── qcpmicgpio8180.cat
+│   │   │       ├── qcpmicgpio8180.inf
+│   │   │       └── qcpmicgpio8180.sys
+│   │   ├── PowerManagement
+│   │   │   ├── PPMSettings-8180Profiles.wd.ppkg
+│   │   │   ├── qcpep8180.cat
+│   │   │   ├── qcpep8180.sys
+│   │   │   └── qcpep.wd8180.inf
+│   │   ├── Provisioning
+│   │   │   ├── qcsocpartition.cat
+│   │   │   ├── QcSOCPartition.inf
+│   │   │   └── QcSOCPartition.sys
+│   │   ├── ResetPower
+│   │   │   ├── qccdi8180.cat
+│   │   │   ├── qccdi8180.inf
+│   │   │   └── qccdi8180.sys
+│   │   ├── SPI
+│   │   │   ├── qcspi8180.cat
+│   │   │   ├── qcspi8180.inf
+│   │   │   └── qcspi8180.sys
+│   │   ├── System
+│   │   │   ├── BusAccessModule
+│   │   │   │   ├── qckmbam8180.cat
+│   │   │   │   ├── qckmbam8180.inf
+│   │   │   │   └── qckmbam8180.sys
+│   │   │   ├── CacheController
+│   │   │   │   ├── qcsyscache8180.cat
+│   │   │   │   ├── qcsyscache8180.inf
+│   │   │   │   └── qcsyscache8180.sys
+│   │   │   ├── SMMU
+│   │   │   │   ├── qcsmmu8180.cat
+│   │   │   │   ├── qcsmmu8180.inf
+│   │   │   │   ├── qcsmmu8180.sys
+│   │   │   │   └── SMMC.bin
+│   │   │   ├── SPMI
+│   │   │   │   ├── qcspmi8180.cat
+│   │   │   │   ├── qcspmi8180.inf
+│   │   │   │   └── qcspmi8180.sys
+│   │   │   ├── Transports
+│   │   │   │   ├── qctftpkmdf.cat
+│   │   │   │   ├── QcTftpKmdf.inf
+│   │   │   │   └── QcTftpKmdf.sys
+│   │   │   └── VoltageCurrentMonitoring
+│   │   │       ├── qcadc8180.cat
+│   │   │       ├── qcadc8180.inf
+│   │   │       └── qcadc8180.sys
+│   │   └── UART
+│   │       ├── qcuart8180.cat
+│   │       ├── qcuart8180.inf
+│   │       └── qcuart8180.sys
+│   ├── Subsystems
+│   │   ├── CombinedSubsystem
+│   │   │   ├── qcsubsys8180.cat
+│   │   │   ├── qcsubsys8180.inf
+│   │   │   └── qcsubsys8180.sys
+│   │   └── ProtectionDomainServiceRegistry
+│   │       ├── qcpdsr.cat
+│   │       ├── qcpdsr.inf
+│   │       └── qcpdsr.sys
+│   ├── USB
+│   │   └── UCSI
+│   │       ├── qcusbcucsi8180.cat
+│   │       ├── qcusbcucsi8180.inf
+│   │       └── qcusbcucsi8180.sys
+│   ├── USBFn
+│   │   ├── Interfaces
+│   │   │   ├── qccomposite.cat
+│   │   │   ├── ufnserialclass.sys
+│   │   │   └── ufnserialcomposite.inf
+│   │   └── SuperSpeedFilter
+│   │       ├── qcusbfnssfilter8180.cat
+│   │       ├── QcUsbFnSsFilter8180.inf
+│   │       └── QcUsbFnSsFilter8180.sys
+│   ├── USBHost
+│   │   ├── qcxhcifilter8180.cat
+│   │   ├── QcXhciFilter8180.inf
+│   │   └── QcXhciFilter8180.sys
+│   └── WLAN
+│       └── Core
+│           ├── bdwlan.b36
+│           ├── bdwlan.b37
+│           ├── bdwlan.b46
+│           ├── bdwlan.b47
+│           ├── bdwlan.b48
+│           ├── bdwlan.b58
+│           ├── bdwlan.b5f
+│           ├── bdwlan.b71
+│           ├── bdwlan.bin
+│           ├── bdwlanu.b58
+│           ├── bdwlanu.b5f
+│           ├── Data.msc
+│           ├── qcwlan8180.cat
+│           ├── qcwlan8180.inf
+│           ├── qcwlan8180.sys
+│           └── WLANMDSP.MBN
+├── Extensions
+│   ├── Audio
+│   │   ├── ACDB
+│   │   │   ├── Bluetooth_cal.acdb
+│   │   │   ├── Codec_cal.acdb
+│   │   │   ├── General_cal.acdb
+│   │   │   ├── Global_cal.acdb
+│   │   │   ├── Handset_cal.acdb
+│   │   │   ├── Hdmi_cal.acdb
+│   │   │   ├── Headset_cal.acdb
+│   │   │   ├── qcacsp8180.cat
+│   │   │   ├── qcacsp_cls8180.inf
+│   │   │   ├── Speaker_cal.acdb
+│   │   │   └── workspaceFile.qwsp
+│   │   ├── AudMiniport
+│   │   │   ├── qcaudminiportcls_extension8180.cat
+│   │   │   └── qcaudminiportCLS_Extension8180.inf
+│   │   ├── Device
+│   │   │   ├── qcauddev8180_ext.cat
+│   │   │   ├── qcauddev_ext8180.inf
+│   │   │   └── qcwdsp8180.mbn
+│   │   └── ListenSoundModel
+│   │       ├── en-US-Alexa.bin
+│   │       ├── en-US-config
+│   │       ├── en-US-Cortana.bin
+│   │       ├── LangIds
+│   │       ├── qclistensm_swc_ext8180.cat
+│   │       ├── QCListenSM_swc_ext8180.inf
+│   │       ├── zh-CN-config
+│   │       └── zh-CN-Cortana.bin
+│   ├── Bluetooth
+│   │   └── BTFMUART_HSP
+│   │       ├── qcbtfmuart_ext8180.cat
+│   │       └── qcbtfmuart_ext8180.inf
+│   ├── Camera
+│   │   ├── AuxilarySensor
+│   │   │   ├── com.qti.sensormodule.tfc_ov7251.bin
+│   │   │   ├── com.qti.tuned.default.bin
+│   │   │   ├── com.qti.tuned.liteon_ov7251.bin
+│   │   │   ├── qccamauxsensor_extension8180.cat
+│   │   │   └── qccamauxsensor_extension8180.inf
+│   │   └── JPEGEncoder
+│   │       ├── qccamjpege8180.cat
+│   │       ├── qccamjpege8180.inf
+│   │       ├── qccamjpege8180.sys
+│   │       ├── QcWICEncoder8180.dll
+│   │       └── QcWICEncoderARM8180.dll
+│   ├── HexagonLoader
+│   │   └── PIL
+│   │       ├── qcpilext8180.cat
+│   │       └── qcpilEXT8180.inf
+│   ├── PMIC
+│   │   └── BatteryCurrentLimiter
+│   │       ├── qcfgbclext8180.cat
+│   │       └── qcfgbclext8180.inf
+│   ├── SARConfig
+│   │   ├── qsarconfig8180.cat
+│   │   └── qsarconfig8180.inf
+│   └── Subsystems
+│       ├── Audio
+│       │   ├── ADSP
+│       │   │   ├── AlacDecoderModule.so.1
+│       │   │   ├── ApeDecoderModule.so.1
+│       │   │   ├── AudioContextDetection.so.1
+│       │   │   ├── AudioSphereModule.so.1
+│       │   │   ├── CFCMModule.so.1
+│       │   │   ├── EtsiAmrWbPlusDecModule.so.1
+│       │   │   ├── EtsiEaacPlusEncAndCmnModule.so.1
+│       │   │   ├── fastrpc_shell_0
+│       │   │   ├── ffv_module.so.1
+│       │   │   ├── FlacDecoderModule.so.1
+│       │   │   ├── fluence_bs_module.so.1
+│       │   │   ├── fluence_ef_module.so.1
+│       │   │   ├── fluence_pro_vc_module.so.1
+│       │   │   ├── fluence_pro_vr_module.so.1
+│       │   │   ├── fluence_sm_module.so.1
+│       │   │   ├── fluence_voiceplus_module.so.1
+│       │   │   ├── HeaacDecoderModule.so.1
+│       │   │   ├── LdacModule.so.1
+│       │   │   ├── libstabilitydomain_skel.so
+│       │   │   ├── libsysmondomain_skel.so
+│       │   │   ├── libsysmonquery_skel.so
+│       │   │   ├── libsysmon_skel.so
+│       │   │   ├── map_AVS_SHARED_LIBS_1000.adsp.prodQ.txt
+│       │   │   ├── map_AVS_SHARED_LIBS_845.adsp.prodQ.txt
+│       │   │   ├── map_SHARED_LIBS_1000.adsp.prodQ.txt
+│       │   │   ├── map_SHARED_LIBS_845.adsp.prodQ.txt
+│       │   │   ├── mmecns_module.so.1
+│       │   │   ├── SAPlusCmnModule.so.1
+│       │   │   ├── smecns_v2_module.so.1
+│       │   │   ├── SVACmnModule.so.1
+│       │   │   ├── VoiceWakeup_V2_Module.so.1
+│       │   │   ├── VorbisDecoderModule.so.1
+│       │   │   ├── WmaProDecoderModule.so.1
+│       │   │   └── WmaStdDecoderModule.so.1
+│       │   ├── qcadsp8180.mbn
+│       │   ├── qcsubsys_ext_adsp8180.cat
+│       │   └── qcsubsys_ext_adsp8180.inf
+│       ├── Compute
+│       │   ├── CDSP
+│       │   │   ├── fastrpc_shell_3
+│       │   │   ├── fastrpc_shell_unsigned_3
+│       │   │   ├── libbenchmark_skel.so
+│       │   │   ├── libc++abi.so.1
+│       │   │   ├── libc++.so.1
+│       │   │   ├── libhcp_rpc_skel.so
+│       │   │   ├── libhta_dsp_skel.so
+│       │   │   ├── libstabilitydomain_skel.so
+│       │   │   ├── libsysmondomain_skel.so
+│       │   │   ├── libsysmonhvxthrottle_skel.so
+│       │   │   ├── libsysmonquery_skel.so
+│       │   │   ├── libsysmon_skel.so
+│       │   │   ├── libvpp_aie.so
+│       │   │   ├── libvpp_diagtools.so
+│       │   │   ├── libvpp_frc.so
+│       │   │   ├── libvpp_mvp.so
+│       │   │   ├── libvpp_nr.so
+│       │   │   ├── libvpp_qbr.so
+│       │   │   ├── libvpp_svc_skel.so
+│       │   │   ├── map_SHARED_LIBS_1000.cdsp.prodQ.txt
+│       │   │   ├── map_SHARED_LIBS_845.cdsp.prodQ.txt
+│       │   │   └── ubwcdma_dynlib.so
+│       │   ├── qccdsp8180.mbn
+│       │   ├── qcsubsys_ext_cdsp8180.cat
+│       │   ├── qcsubsys_ext_cdsp8180.inf
+│       │   └── RCDS.bin
+│       ├── Modem
+│       │   ├── qcmpss8180.mbn
+│       │   ├── qcmpss8180_nm.mbn
+│       │   ├── qcsubsys_ext_mpss8180.cat
+│       │   └── qcsubsys_ext_mpss8180.inf
+│       └── ModemConfig
+│           ├── MCFG
+│           │   ├── mbn_hw.dig.78
+│           │   ├── mbn_hw.txt.79
+│           │   ├── mbn_sw.dig.221
+│           │   ├── mbn_sw.txt.222
+│           │   ├── mcfg_hw.mbn.1
+│           │   ├── mcfg_hw.mbn.10
+│           │   ├── mcfg_hw.mbn.11
+│           │   ├── mcfg_hw.mbn.12
+│           │   ├── mcfg_hw.mbn.13
+│           │   ├── mcfg_hw.mbn.14
+│           │   ├── mcfg_hw.mbn.15
+│           │   ├── mcfg_hw.mbn.16
+│           │   ├── mcfg_hw.mbn.17
+│           │   ├── mcfg_hw.mbn.18
+│           │   ├── mcfg_hw.mbn.19
+│           │   ├── mcfg_hw.mbn.2
+│           │   ├── mcfg_hw.mbn.20
+│           │   ├── mcfg_hw.mbn.21
+│           │   ├── mcfg_hw.mbn.22
+│           │   ├── mcfg_hw.mbn.23
+│           │   ├── mcfg_hw.mbn.24
+│           │   ├── mcfg_hw.mbn.25
+│           │   ├── mcfg_hw.mbn.26
+│           │   ├── mcfg_hw.mbn.27
+│           │   ├── mcfg_hw.mbn.28
+│           │   ├── mcfg_hw.mbn.29
+│           │   ├── mcfg_hw.mbn.3
+│           │   ├── mcfg_hw.mbn.30
+│           │   ├── mcfg_hw.mbn.31
+│           │   ├── mcfg_hw.mbn.32
+│           │   ├── mcfg_hw.mbn.33
+│           │   ├── mcfg_hw.mbn.34
+│           │   ├── mcfg_hw.mbn.35
+│           │   ├── mcfg_hw.mbn.36
+│           │   ├── mcfg_hw.mbn.37
+│           │   ├── mcfg_hw.mbn.38
+│           │   ├── mcfg_hw.mbn.39
+│           │   ├── mcfg_hw.mbn.4
+│           │   ├── mcfg_hw.mbn.40
+│           │   ├── mcfg_hw.mbn.41
+│           │   ├── mcfg_hw.mbn.42
+│           │   ├── mcfg_hw.mbn.43
+│           │   ├── mcfg_hw.mbn.44
+│           │   ├── mcfg_hw.mbn.45
+│           │   ├── mcfg_hw.mbn.46
+│           │   ├── mcfg_hw.mbn.47
+│           │   ├── mcfg_hw.mbn.48
+│           │   ├── mcfg_hw.mbn.49
+│           │   ├── mcfg_hw.mbn.5
+│           │   ├── mcfg_hw.mbn.50
+│           │   ├── mcfg_hw.mbn.51
+│           │   ├── mcfg_hw.mbn.52
+│           │   ├── mcfg_hw.mbn.53
+│           │   ├── mcfg_hw.mbn.54
+│           │   ├── mcfg_hw.mbn.55
+│           │   ├── mcfg_hw.mbn.56
+│           │   ├── mcfg_hw.mbn.57
+│           │   ├── mcfg_hw.mbn.58
+│           │   ├── mcfg_hw.mbn.59
+│           │   ├── mcfg_hw.mbn.6
+│           │   ├── mcfg_hw.mbn.60
+│           │   ├── mcfg_hw.mbn.61
+│           │   ├── mcfg_hw.mbn.62
+│           │   ├── mcfg_hw.mbn.63
+│           │   ├── mcfg_hw.mbn.64
+│           │   ├── mcfg_hw.mbn.65
+│           │   ├── mcfg_hw.mbn.66
+│           │   ├── mcfg_hw.mbn.67
+│           │   ├── mcfg_hw.mbn.68
+│           │   ├── mcfg_hw.mbn.69
+│           │   ├── mcfg_hw.mbn.7
+│           │   ├── mcfg_hw.mbn.70
+│           │   ├── mcfg_hw.mbn.71
+│           │   ├── mcfg_hw.mbn.72
+│           │   ├── mcfg_hw.mbn.73
+│           │   ├── mcfg_hw.mbn.74
+│           │   ├── mcfg_hw.mbn.75
+│           │   ├── mcfg_hw.mbn.76
+│           │   ├── mcfg_hw.mbn.77
+│           │   ├── mcfg_hw.mbn.8
+│           │   ├── mcfg_hw.mbn.9
+│           │   ├── mcfg_sw.mbn.100
+│           │   ├── mcfg_sw.mbn.101
+│           │   ├── mcfg_sw.mbn.102
+│           │   ├── mcfg_sw.mbn.103
+│           │   ├── mcfg_sw.mbn.104
+│           │   ├── mcfg_sw.mbn.105
+│           │   ├── mcfg_sw.mbn.106
+│           │   ├── mcfg_sw.mbn.107
+│           │   ├── mcfg_sw.mbn.108
+│           │   ├── mcfg_sw.mbn.109
+│           │   ├── mcfg_sw.mbn.110
+│           │   ├── mcfg_sw.mbn.111
+│           │   ├── mcfg_sw.mbn.112
+│           │   ├── mcfg_sw.mbn.113
+│           │   ├── mcfg_sw.mbn.114
+│           │   ├── mcfg_sw.mbn.115
+│           │   ├── mcfg_sw.mbn.116
+│           │   ├── mcfg_sw.mbn.117
+│           │   ├── mcfg_sw.mbn.118
+│           │   ├── mcfg_sw.mbn.119
+│           │   ├── mcfg_sw.mbn.120
+│           │   ├── mcfg_sw.mbn.121
+│           │   ├── mcfg_sw.mbn.122
+│           │   ├── mcfg_sw.mbn.123
+│           │   ├── mcfg_sw.mbn.124
+│           │   ├── mcfg_sw.mbn.125
+│           │   ├── mcfg_sw.mbn.126
+│           │   ├── mcfg_sw.mbn.127
+│           │   ├── mcfg_sw.mbn.128
+│           │   ├── mcfg_sw.mbn.129
+│           │   ├── mcfg_sw.mbn.130
+│           │   ├── mcfg_sw.mbn.131
+│           │   ├── mcfg_sw.mbn.132
+│           │   ├── mcfg_sw.mbn.133
+│           │   ├── mcfg_sw.mbn.134
+│           │   ├── mcfg_sw.mbn.135
+│           │   ├── mcfg_sw.mbn.136
+│           │   ├── mcfg_sw.mbn.137
+│           │   ├── mcfg_sw.mbn.138
+│           │   ├── mcfg_sw.mbn.139
+│           │   ├── mcfg_sw.mbn.140
+│           │   ├── mcfg_sw.mbn.141
+│           │   ├── mcfg_sw.mbn.142
+│           │   ├── mcfg_sw.mbn.143
+│           │   ├── mcfg_sw.mbn.144
+│           │   ├── mcfg_sw.mbn.145
+│           │   ├── mcfg_sw.mbn.146
+│           │   ├── mcfg_sw.mbn.147
+│           │   ├── mcfg_sw.mbn.148
+│           │   ├── mcfg_sw.mbn.149
+│           │   ├── mcfg_sw.mbn.150
+│           │   ├── mcfg_sw.mbn.151
+│           │   ├── mcfg_sw.mbn.152
+│           │   ├── mcfg_sw.mbn.153
+│           │   ├── mcfg_sw.mbn.154
+│           │   ├── mcfg_sw.mbn.155
+│           │   ├── mcfg_sw.mbn.156
+│           │   ├── mcfg_sw.mbn.157
+│           │   ├── mcfg_sw.mbn.158
+│           │   ├── mcfg_sw.mbn.159
+│           │   ├── mcfg_sw.mbn.160
+│           │   ├── mcfg_sw.mbn.161
+│           │   ├── mcfg_sw.mbn.162
+│           │   ├── mcfg_sw.mbn.163
+│           │   ├── mcfg_sw.mbn.164
+│           │   ├── mcfg_sw.mbn.165
+│           │   ├── mcfg_sw.mbn.166
+│           │   ├── mcfg_sw.mbn.167
+│           │   ├── mcfg_sw.mbn.168
+│           │   ├── mcfg_sw.mbn.169
+│           │   ├── mcfg_sw.mbn.170
+│           │   ├── mcfg_sw.mbn.171
+│           │   ├── mcfg_sw.mbn.172
+│           │   ├── mcfg_sw.mbn.173
+│           │   ├── mcfg_sw.mbn.174
+│           │   ├── mcfg_sw.mbn.175
+│           │   ├── mcfg_sw.mbn.176
+│           │   ├── mcfg_sw.mbn.177
+│           │   ├── mcfg_sw.mbn.178
+│           │   ├── mcfg_sw.mbn.179
+│           │   ├── mcfg_sw.mbn.180
+│           │   ├── mcfg_sw.mbn.181
+│           │   ├── mcfg_sw.mbn.182
+│           │   ├── mcfg_sw.mbn.183
+│           │   ├── mcfg_sw.mbn.184
+│           │   ├── mcfg_sw.mbn.185
+│           │   ├── mcfg_sw.mbn.186
+│           │   ├── mcfg_sw.mbn.187
+│           │   ├── mcfg_sw.mbn.188
+│           │   ├── mcfg_sw.mbn.189
+│           │   ├── mcfg_sw.mbn.190
+│           │   ├── mcfg_sw.mbn.191
+│           │   ├── mcfg_sw.mbn.192
+│           │   ├── mcfg_sw.mbn.193
+│           │   ├── mcfg_sw.mbn.194
+│           │   ├── mcfg_sw.mbn.195
+│           │   ├── mcfg_sw.mbn.196
+│           │   ├── mcfg_sw.mbn.197
+│           │   ├── mcfg_sw.mbn.198
+│           │   ├── mcfg_sw.mbn.199
+│           │   ├── mcfg_sw.mbn.200
+│           │   ├── mcfg_sw.mbn.201
+│           │   ├── mcfg_sw.mbn.202
+│           │   ├── mcfg_sw.mbn.203
+│           │   ├── mcfg_sw.mbn.204
+│           │   ├── mcfg_sw.mbn.205
+│           │   ├── mcfg_sw.mbn.206
+│           │   ├── mcfg_sw.mbn.207
+│           │   ├── mcfg_sw.mbn.208
+│           │   ├── mcfg_sw.mbn.209
+│           │   ├── mcfg_sw.mbn.210
+│           │   ├── mcfg_sw.mbn.211
+│           │   ├── mcfg_sw.mbn.212
+│           │   ├── mcfg_sw.mbn.213
+│           │   ├── mcfg_sw.mbn.214
+│           │   ├── mcfg_sw.mbn.215
+│           │   ├── mcfg_sw.mbn.216
+│           │   ├── mcfg_sw.mbn.217
+│           │   ├── mcfg_sw.mbn.218
+│           │   ├── mcfg_sw.mbn.219
+│           │   ├── mcfg_sw.mbn.220
+│           │   ├── mcfg_sw.mbn.81
+│           │   ├── mcfg_sw.mbn.82
+│           │   ├── mcfg_sw.mbn.83
+│           │   ├── mcfg_sw.mbn.84
+│           │   ├── mcfg_sw.mbn.85
+│           │   ├── mcfg_sw.mbn.86
+│           │   ├── mcfg_sw.mbn.87
+│           │   ├── mcfg_sw.mbn.88
+│           │   ├── mcfg_sw.mbn.89
+│           │   ├── mcfg_sw.mbn.90
+│           │   ├── mcfg_sw.mbn.91
+│           │   ├── mcfg_sw.mbn.92
+│           │   ├── mcfg_sw.mbn.93
+│           │   ├── mcfg_sw.mbn.94
+│           │   ├── mcfg_sw.mbn.95
+│           │   ├── mcfg_sw.mbn.96
+│           │   ├── mcfg_sw.mbn.97
+│           │   ├── mcfg_sw.mbn.98
+│           │   ├── mcfg_sw.mbn.99
+│           │   ├── oem_hw.txt.80
+│           │   └── oem_sw.txt.223
+│           ├── mcfg_subsys_ext8180.cat
+│           ├── mcfg_subsys_ext8180.inf
+│           └── qdsp6m.qdb
+└── Firmware
+    ├── NVME
+    │   ├── qcfirmware8180.cat
+    │   ├── qcfirmware8180_NVME.inf
+    │   └── qcfirmware8180v_NVME21000000.cap
+    └── UFS
+        ├── qcfirmware8180.cat
+        ├── qcfirmware8180_UFS.inf
+        └── qcfirmware8180v_UFS21000000.cap
 
-166 directories, 764 files
+114 directories, 617 files

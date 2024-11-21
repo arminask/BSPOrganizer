@@ -4,7 +4,7 @@ import argparse
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-def move_drivers(base_source_dir, base_output_dir, target_silicon, device_codename, model_number):
+def move_drivers(base_source_dir, base_output_dir, target_silicon, model_number):
 
     # Parse XML
     tree = ET.parse('Config.xml')
@@ -18,7 +18,7 @@ def move_drivers(base_source_dir, base_output_dir, target_silicon, device_codena
     # For now search all Driver elements at all levels
     for driver in root.findall('.//Driver'):
         source_name = driver.get('SrcDir').replace("$(silicon)", target_silicon)
-        output_directory = driver.get('OutDir').replace("$(codename)", device_codename).replace("$(SoC)", model_number)
+        output_directory = driver.get('OutDir').replace("$(SoC)", model_number)
 
         # Combine input path + driver directory
         full_source_dir = os.path.join(base_source_dir, source_name)
@@ -76,7 +76,8 @@ def generate_definitions(comp_path, output_xml):
             if file.endswith(".inf"):
                 # Construct full path and filename
                 inf_path = os.path.relpath(subdir, start=comp_path)
-                inf_full_path = f"$(mspackageroot)\\components\\{inf_path}".replace("/", "\\")
+                modelnumber = f"QC{args.modelnumber}"
+                inf_full_path = f"$(mspackageroot)\\components\\{modelnumber}\\{inf_path}".replace("/", "\\")
                 inf_name = file
                 inf_id = os.path.splitext(inf_name)[0]  # ID is the name without extension
 
@@ -97,10 +98,11 @@ def generate_definitions(comp_path, output_xml):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="""This script organizes extracted Windows drivers from CAB files and generates XML driver definitions.
-The script looks for the source directory defined in the Config.xml and then moves it's contents to a new path specified in XML.
+The script looks for the source directory defined in the Config.xml and then moves
+it's contents to an organized directory specified in XML.
 
 Example command:
-    python main.py --input Drivers --output ./Output --silicon 7280 --codename Yupik --modelnumber 7325
+    python main.py --input ./Drivers --output ./Output --silicon 7280
 
 """,
         formatter_class=argparse.RawTextHelpFormatter
@@ -108,21 +110,18 @@ Example command:
     parser.add_argument("-i", "--input", required=True, help="Input directory containing extracted CAB folders")
     parser.add_argument("-o", "--output", default="Output", help="Output directory of organized files. Default: Output")
     parser.add_argument("-s", "--silicon", required=True, help="Target silicon. Examples: 7180, 7280, 8180")
-    parser.add_argument("-c", "--codename", help="Device codename. Defaults to --silicon value")
     parser.add_argument("-m", "--modelnumber", help="SoC model number. Defaults to --silicon value")
 
     args = parser.parse_args()
 
-    # Defaults for codename and modelnumber args
-    if args.codename is None:
-        args.codename = args.silicon
+    # Defaults for modelnumber arg
     if args.modelnumber is None:
         args.modelnumber = args.silicon
 
-    comp_path = os.path.join(args.output, "components")
-    output_xml = os.path.join(args.output, "definitions", "Desktop", "ARM64", "Internal", f"{args.codename}.xml")
+    comp_path = os.path.join(args.output, f"QC{args.modelnumber}")
+    output_xml = os.path.join(args.output, f"{args.modelnumber}.xml")
     os.makedirs(os.path.dirname(output_xml), exist_ok=True)
 
     # Call directory-structurizer and xml-gen functions with the provided arguments
-    move_drivers(args.input, args.output, args.silicon, args.codename, args.modelnumber)
+    move_drivers(args.input, args.output, args.silicon, args.modelnumber)
     generate_definitions(comp_path, output_xml)
