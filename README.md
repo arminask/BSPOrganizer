@@ -21,8 +21,8 @@ python main.py --input ./Drivers --output ./Output --silicon 7280 --modelnumber 
 Resulting output directory paths:
 
 ```
-(outputdir)/components/QC7325/Drivers/SOC/ResetPower/qccdi7280.inf (and other files)
-(outputdir)/components/QC7325/Drivers/Audio/ADCM/qcadcm7280.sys (and other files)
+(outputdir)/QC7325/Drivers/SOC/ResetPower/qccdi7280.inf (and other files)
+(outputdir)/QC7325/Drivers/Audio/ADCM/qcadcm7280.sys (and other files)
 ```
 
 ---
@@ -36,8 +36,8 @@ python main.py --input ./Drivers --output ./Output --silicon 7180 --modelnumber 
 Resulting output directory paths:
 
 ```
-(outputdir)/components/QC7125/Drivers/SOC/ResetPower/qccdi7180.inf (and other files)
-(outputdir)/components/QC7125/Drivers/Audio/ADCM/qcadcm7180.sys (and other files)
+(outputdir)/QC7125/Drivers/SOC/ResetPower/qccdi7180.inf (and other files)
+(outputdir)/QC7125/Drivers/Audio/ADCM/qcadcm7180.sys (and other files)
 ```
 
 ---
@@ -51,8 +51,8 @@ python main.py --input ./Drivers --output ./Output --silicon 8180
 Resulting output directory paths:
 
 ```
-(outputdir)/components/QC8180/Drivers/SOC/ResetPower/qccdi8180.inf (and other files)
-(outputdir)/components/QC8180/Drivers/Audio/ADCM/qcadcm8180.sys (and other files)
+(outputdir)/QC8180/Drivers/SOC/ResetPower/qccdi8180.inf (and other files)
+(outputdir)/QC8180/Drivers/Audio/ADCM/qcadcm8180.sys (and other files)
 ```
 
 Please see the [script example run output](example-run.txt) and the resulting generated [output directory hierarchy](output-tree.txt).
