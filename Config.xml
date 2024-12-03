@@ -19,7 +19,7 @@
             <Driver SrcDir="qccammipicsi$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/MIPICSI"/>
             <Driver SrcDir="qccamplatform$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/Platform"/>
             <Driver SrcDir="qcccidbridge$(silicon)" OutDir="QC$(SoC)/Drivers/Cellular/CCID"/>
-            <Driver SrcDir="qccdi$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/ResetPower"/>
+            <Driver SrcDir="qccdi$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/ResetPower/CrashDumpInjector"/>
             <Driver SrcDir="qcdeepstandbymdm$(silicon)" OutDir="QC$(SoC)/Drivers/Cellular/DeepStandby"/>
             <Driver SrcDir="QCDiagBridge" OutDir="QC$(SoC)/Drivers/Cellular/DiagBridge"/>
             <Driver SrcDir="qcdiagcsi$(silicon)" OutDir="QC$(SoC)/Drivers/Cellular/DiagCSI"/>
@@ -78,8 +78,8 @@
             <Driver SrcDir="qccamavs$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/AVStream"/>
             <Driver SrcDir="qccamflash$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/Flash"/>
             <Driver SrcDir="qccamfrontsensor$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/FrontSensor"/>
-            <Driver SrcDir="qccamfrontsensor_extension$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/FrontCamera"/>
             <Driver SrcDir="qccamisp$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/ISP"/>
+            <Driver SrcDir="qccamjpege$(silicon)" OutDir="QC$(SoC)/Drivers/Camera/JPEGEncoder"/>
             <Driver SrcDir="qcdx$(silicon)" OutDir="QC$(SoC)/Drivers/Graphics/DXKM"/>
             <Driver SrcDir="qcipa$(silicon)" OutDir="QC$(SoC)/Drivers/Cellular/IPA"/>
             <Driver SrcDir="qcSensors" OutDir="QC$(SoC)/Drivers/Sensors/SSC"/>
@@ -117,10 +117,10 @@
             <Driver SrcDir="qccamauxsensor_extension$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/AuxilarySensor"/>
             <Driver SrcDir="qccamavs_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/AVStream"/>
             <Driver SrcDir="qccamisp_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/ISP"/>
-            <Driver SrcDir="qccamjpege$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/JPEGEncoder"/>
             <Driver SrcDir="qccamjpege_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/JPEGEncoder"/>
             <Driver SrcDir="qccammipicsi_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/MIPICSI"/>
             <Driver SrcDir="qccamplatform_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/Platform"/>
+            <Driver SrcDir="qccamfrontsensor_extension$(silicon)" OutDir="QC$(SoC)/Extensions/Camera/FrontCamera"/>
             <Driver SrcDir="qcdxext_crd$(silicon)" OutDir="QC$(SoC)/Extensions/Graphics/DXKM"/>
             <Driver SrcDir="qcfgbclext$(silicon)" OutDir="QC$(SoC)/Extensions/PMIC/BatteryCurrentLimiter"/>
             <Driver SrcDir="QCListenSM_swc_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Audio/ListenSoundModel"/>
