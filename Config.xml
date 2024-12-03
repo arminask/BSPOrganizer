@@ -56,6 +56,7 @@
             <Driver SrcDir="qcsecapp" OutDir="QC$(SoC)/Drivers/SOC/System/SecApp"/>
             <Driver SrcDir="qcshutdownsvc" OutDir="QC$(SoC)/Drivers/Shutdown"/>
             <Driver SrcDir="QcSkExt$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/HexagonLoader/SecureKernel"/>
+            <Driver SrcDir="qcpilfilterext" OutDir="QC$(SoC)/Drivers/SOC/HexagonLoader/PILFilter"/>
             <Driver SrcDir="qcslimbus$(silicon)" OutDir="QC$(SoC)/Drivers/Audio/SlimBus"/>
             <Driver SrcDir="qcsmmu$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/System/SMMU"/>
             <Driver SrcDir="QcSOCPartition" OutDir="QC$(SoC)/Drivers/SOC/Provisioning"/>
@@ -106,7 +107,6 @@
             <Driver SrcDir="qciommuext$(silicon)" OutDir="QC$(SoC)/Extensions/SOC/IOMMU"/>
             <Driver SrcDir="qcipaext$(silicon)" OutDir="QC$(SoC)/Extensions/Cellular/IPA"/>
             <Driver SrcDir="qcmbbnetadapter_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Cellular/MBBNetAdapter"/>
-            <Driver SrcDir="qcpilfilterext" OutDir="QC$(SoC)/Extensions/HexagonLoader/PILFilter"/>
             <Driver SrcDir="qcpmicext$(silicon)" OutDir="QC$(SoC)/Extensions/PMIC/Core"/>
             <Driver SrcDir="qsarconfig$(silicon)" OutDir="QC$(SoC)/Extensions/SARConfig"/>
             <Driver SrcDir="mcfg_subsys_ext$(silicon)" OutDir="QC$(SoC)/Extensions/Subsystems/ModemConfig"/>
