@@ -30,7 +30,7 @@
             <Driver SrcDir="qcgnss$(silicon)" OutDir="QC$(SoC)/Drivers/GPS"/>
             <Driver SrcDir="qcgpi$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/Buses/GPI"/>
             <Driver SrcDir="qcgpio$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/GPIO"/>
-            <Driver SrcDir="qchwnled$(silicon)" OutDir="QC$(SoC)/Drivers/HWNLED"/>
+            <Driver SrcDir="qchwnled$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/LED"/>
             <Driver SrcDir="qci2c$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/I2C"/>
             <Driver SrcDir="qciommu" OutDir="QC$(SoC)/Drivers/SOC/IOMMU"/>
             <Driver SrcDir="qcipcc$(silicon)" OutDir="QC$(SoC)/Drivers/SOC/System/IPCC"/>
